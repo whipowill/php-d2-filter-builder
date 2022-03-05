@@ -1,0 +1,7 @@
+!*.dll
+!*/*.dll
+.DS_Store
+reset.sh
+vendor
+composer.lock
+.~lock.*

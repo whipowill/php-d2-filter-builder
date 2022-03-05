@@ -1,0 +1,278 @@
+,game_code,notes,lootfilter_code
+,ac,,STAT31
+,ac-miss,,STAT32
+,ac-hth,,
+,red-dmg,,STAT34
+,red-dmg%,,STAT36
+,ac%,,STAT16
+,red-mag,,STAT35
+x,str,,STR
+x,dex,,DEX
+x,vit,,STAT3
+x,enr,,STAT1
+,mana,,MANA
+,mana%,,
+,hp,,LIFE
+,hp%,,
+,att,,STAT19
+,block,,STAT20
+,cold-min,,
+,cold-max,,
+,cold-len,,
+,fire-min,,
+,fire-max,,
+,ltng-min,,
+,ltng-max,,
+,pois-min,,
+,pois-max,,
+,pois-len,,STAT110
+,dmg-min,,MINDMG
+,dmg-max,,MAXDMG
+,dmg%,,ED
+,dmg-to-mana,,
+,res-fire,,FRES
+,res-fire-max,,
+,res-ltng,,LRES
+,res-ltng-max,,
+,res-cold,,CRES
+,res-cold-max,,
+,res-mag,,
+,res-mag-max,,
+,res-pois,,PRES
+,res-pois-max,,
+,res-all,,RES
+,res-all-max,,
+,abs-fire%,,STAT142
+,abs-fire,,STAT143
+,abs-ltng%,,STAT144
+,abs-ltng,,STAT145
+,abs-mag%,,STAT146
+,abs-mag,,STAT147
+,abs-cold%,,STAT148
+,abs-cold,,STAT149
+,dur,,
+,dur%,,
+,regen,,
+,thorns,,SK103
+,swing1,,IAS
+,swing2,,IAS
+,swing3,,IAS
+,gold%,,GFIND
+,mag%,,MFIND
+,knock,,
+,regen-stam,,
+,regen-mana,,
+,stam,,STAT11
+,time,,
+,manasteal,,STAT62
+,lifesteal,,
+,ama,,CLSK0
+,pal,,CLSK3
+,nec,,CLSK2
+,sor,,CLSK1
+,bar,,CLSK4
+,herb,,
+,light,,STAT89
+,color,,
+,ease,,
+,move1,,FRW
+,move2,,FRW
+,move3,,FRW
+,balance1,,FHR
+,balance2,,FHR
+,balance3,,FHR
+,block1,,FBR
+,block2,,FBR
+,block3,,FBR
+,cast1,,FCR
+,cast2,,FCR
+,cast3,,FCR
+,res-pois-len,,
+,dmg,,
+,howl,,
+,stupidity,,
+,ignore-ac,,
+,reduce-ac,,
+,noheal,,
+,half-freeze,,
+,att%,,STAT119
+,dmg-ac,,
+,dmg-demon,+N% Damage to Demons,STAT121
+,dmg-undead,+N% Damage to Undead,STAT122
+,att-demon,+N to Attack Rating against Demons,STAT123
+,att-undead,+N to Attack Rating against Undead,STAT124
+,throw,,
+,fireskill,,
+,allskills,,ALLSK
+,light-thorns,,
+,freeze,,
+,openwounds,,
+,crush,,STAT247
+,kick,,
+,mana-kill,,MAEK
+,demon-heal,,
+,bloody,,
+,deadly,,
+,slow,,
+,nofreeze,,
+,stamdrain,,
+,reanimate,,
+,pierce,,
+,magicarrow,,
+,explosivearrow,,
+,Expansion,,
+,dru,All Druid Skills,CLSK5
+,ass,All Assassin Skills,CLSK6
+,skill,,
+,skilltab,,
+,aura,,
+,att-skill,Proc Skill on Swing,
+,hit-skill,Proc Skill on Hit,
+,gethit-skill,Proc Skill on Get Hit,
+,gembonus,Increase chance of finding Gems,
+,regen-dur,,
+,fire-fx,,
+,ltng-fx,,
+,sock,,SOCK
+,dmg-fire,Fire Damage,
+,dmg-ltng,Lightning Damage,
+,dmg-mag,Magic Damge,
+,dmg-cold,Cold Damage,
+,dmg-pois,Poison Damage,
+,dmg-throw,Throwing Damage,
+,dmg-norm,Normal Damage Modifier,
+,ac/lvl,AC per Player Level,STAT224
+,ac%/lvl,AC% per Player Level,STAT225
+,hp/lvl,HP per Player Level,
+,mana/lvl,Mana per Player Level,
+,dmg/lvl,Max Damage per Player Level,
+,dmg%/lvl,Max Damage % per Player Level,
+,str/lvl,Strength per Player Level,
+,dex/lvl,Dexterity per Player Level,
+,enr/lvl,Energy per Player Level,
+,vit/lvl,Vitality per Player Level,
+,att/lvl,Attack per Player Level,
+,att%/lvl,Attack% per Player Level,
+,dmg-cold/lvl,Max Cold Damage per Player Level,
+,dmg-fire/lvl,Max Fire Damage per Player Level,
+,dmg-ltng/lvl,Max Lightning Dmg per Player Level,
+,dmg-pois/lvl,Max Poison Dmg per Player Level,
+,res-cold/lvl,Resist Cold% per Player Level,
+,res-fire/lvl,Resist Fire% per Player Level,
+,res-ltng/lvl,Resist Lightning% per Player Level,
+,res-pois/lvl,Resist Poison% per Player Level,
+,abs-cold/lvl,Absorb Cold Dmg per Player Level,
+,abs-fire/lvl,Absorb Fire Dmg per Player Level,
+,abs-ltng/lvl,Absorb Lightning Dmg per Player Lvl,
+,abs-pois/lvl,Absorb Poison Dmg per Player Lvl,
+,thorns/lvl,Damage to Attacker per Player Lvl,
+,gold%/lvl,+% Gold Dropped per Player Lvl,
+,mag%/lvl,+% Magical per Player Lvl,
+,regen-stam/lvl,+% Stamina Regeneration per Player Lvl,
+,stam/lvl,Stamina per Player Level,
+,dmg-dem/lvl,Damage to Demons % per Player Level,
+,dmg-und/lvl,Damage to Undead % per Player Level,
+,att-dem/lvl,Attack Demons + per Player Level,
+,att-und/lvl,Attack Undead + per Player Level,
+,crush/lvl,+% Chance of Crushing Blow per Player Level,
+,wounds/lvl,+% Chance of Open Wounds per Player Level,
+,kick/lvl,Kick Damage per Player Level,
+,deadly/lvl,+% Chance of Deadly Strike per Player Level,
+,gems%/lvl,+% Chance of finding Gems per Player Level,
+,rep-dur,regenerates durability,
+,rep-quant,regenerates quantity,
+,stack,Increased stack size,
+,item%,+% Chance of finding item,
+,dmg-slash,Slashing Damage,
+,dmg-slash%,Slashing Damage %,
+,dmg-crush,Crush Damage,
+,dmg-crush%,Crush Damage %,
+,dmg-thrust,Thrust Damage,
+,dmg-thrust%,Thrust Damage %,
+,abs-slash,Absorb Slashing Damage,
+,abs-crush,Absorb Crushing Damage,
+,abs-thrust,Absorb Thrusting Damage,
+,abs-slash%,Absorb Slashing Damage %,
+,abs-crush%,Absorb Crushing Damage %,
+,abs-thrust%,Absorb Thrusting Damage %,
+,ac/time,"AC / time increment (0=day, 1=dusk, 2=night, 3=dawn)",
+,ac%/time,AC% / time increment (8 periods),
+,hp/time,HP / time increment,
+,mana/time,Mana / time increment,
+,dmg/time,Max Damage / time increment,
+,dmg%/time,Max Damage % / time increment,
+,str/time,Strength / time increment,
+,dex/time,Dexterity / time increment,
+,enr/time,Energy / time increment,
+,vit/time,Vitality / time increment,
+,att/time,To hit / time increment,
+,att%/time,To Hit % / time increment,
+,dmg-cold/time,Cold Damage Max / time inc.,
+,dmg-fire/time,Fire Damage Max / time inc.,
+,dmg-ltng/time,Lightning Damage Max / time inc.,
+,dmg-pois/time,Poison Damage Max / time inc.,
+,res-cold/time,Resist Cold / time inc.,
+,res-fire/time,Resist Fire / time inc.,
+,res-ltng/time,Resist Lightning / time inc,
+,res-pois/time,Resist Poison / time inc,
+,abs-cold/time,Absorb Cold / time inc.,
+,abs-fire/time,Absorb Fire / time inc.,
+,abs-ltng/time,Absorb Lightning / time inc.,
+,abs-pois/time,Absorb Poison / time inc.,
+,gold%/time,Find Gold Amt % / time inc.,
+,mag%/time,Find Magic % / time inc.,
+,regen-stam/time,% / time inc.,
+,stam/time,Stamina / time inc.,
+,dmg-dem/time,Damage to Demons % / time inc.,
+,dmg-und/time,Damage to Undead % / time inc.,
+,att-dem/time,To Hit Demons % / time inc.,
+,att-und/time,To Hit Undead % / time inc.,
+,crush/time,% chance of Crushing Blow / time inc.,
+,wounds/time,+% chance of Open Wounds / time inc.,
+,kick/time,Kick Damage / time inc.,
+,deadly/time,+% chance of Deadly Strike / time inc.,
+,gems%/time,+% chance of finding Gems / time inc.,
+,pierce-fire,Negates % of Enemy Cold Resistance,
+,pierce-ltng,Negates % of Enemy Fire Resistance,
+,pierce-cold,Negates % of Enemy Lightning Resistance,
+,pierce-pois,Negates % of Enemy Poison Resistance,
+,dmg-mon,Damage vs. specific Monster Type,
+,dmg%-mon,Damage % vs. specific Monster Type,
+,att-mon,To Hit vs. specific Monster Type,
+,att%-mon,To Hit % vs. specific Monster Type,
+,ac-mon,AC vs. specific Monster Type,
+,ac%-mon,AC% vs. specific Monster Type,
+,indestruct,Indestructible,
+,charged,Charged Skill,
+,extra-fire,,
+,extra-ltng,,
+,extra-cold,,
+,extra-pois,,
+,dmg-elem,,
+,dmg-elem-min,,
+,dmg-elem-max,,
+,all-stats,,STAT4
+,addxp,additional xp gain,
+,heal-kill,life gained after each kill,STAT86
+,cheap,reduces vendor prices,
+,rip,slain monsters' corpses can't be used,
+,att-mon%,attack% vs. monster type,
+,dmg-mon%,damage% vs. monster type,
+,kill-skill,Proc Skill on killing something,
+,death-skill,Proc Skill on getting killed,
+,levelup-skill,Proc Skill on level up,
+,skill-rand,Bonus to random skill,
+,fade,only use on monprop,
+,levelreq,,
+,ethereal,,ETH
+,oskill,,
+,state,,
+,randclassskill,,CLSK0 OR CLSK1 OR CLSK2 OR CLSK3 OR CLSK4 OR CLSK5 OR CLSK6
+,dmg-fire,Fire Damage,STAT48
+,dmg-ltng,Lightning Damage,STAT50
+,dmg-cold,Cold Damage,STAT54
+,dmg-pois,Poison Damage,STAT57
+,dmg-norm,,STAT25
+,lightning_mastery,,SK63
+,cold_mastery,,SK65
+,fire_mastery,,SK61

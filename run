@@ -1,0 +1,19 @@
+<?php
+
+// disable error reporting
+#error_reporting(0);
+
+// boost
+ini_set('memory_limit', -1);
+
+// set timezone
+date_default_timezone_set('America/New_York');
+
+// require helpers
+require('functions.php');
+
+// require app
+require(path('src/App.php'));
+
+// run app
+App::run();
