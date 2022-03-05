@@ -95,7 +95,7 @@ class App
 			$pass = $mode == 'uniques' ? ex($item, 'enabled') : true;
 
             // if item is enabled in the game...
-			if ($code and !in_array($code, ['jew', 'rin', 'amu']) and $pass)
+			if ($code and !in_array($code, ['jew', 'rin', 'amu', 'uar']) and $pass)
 			{
 				// init
 				$conditions = [];
