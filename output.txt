@@ -4,1890 +4,1746 @@
 
 // The Gnasher (hax)
 ItemDisplay[UNI hax ED>69]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hax ED>51]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hax ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hax ED>66]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hax ED>62]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Deathspade (axe)
 ItemDisplay[UNI axe ED>69]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI axe ED>51]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI axe ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI axe ED>66]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI axe ED>62]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI axe]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bladebone (2ax)
 ItemDisplay[UNI 2ax ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 2ax ED>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 2ax ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 2ax ED>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 2ax ED>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 2ax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Mindrend (mpi)
 ItemDisplay[UNI mpi STAT51>14 STAT19>99 ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI mpi STAT51>9 STAT19>11 ED>29]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI mpi STAT51>8 STAT19>-1 ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI mpi STAT51>13 STAT19>82 ED>86]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI mpi STAT51>12 STAT19>66 ED>73]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI mpi]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Rakescar (wax)
 ItemDisplay[UNI wax ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI wax ED>18]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI wax ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI wax ED>124]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI wax ED>99]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI wax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Fechmars Axe (lax)
 ItemDisplay[UNI lax ED>89]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lax ED>54]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lax ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lax ED>82]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lax ED>76]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Goreshovel (bax)
 ItemDisplay[UNI bax ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bax ED>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bax ED>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bax ED>46]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bax ED>42]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Chieftan (btx)
 ItemDisplay[UNI btx RES>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI btx RES>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI btx RES>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI btx RES>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI btx RES>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI btx]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Brainhew (gax)
 ItemDisplay[UNI gax STAT62>12 ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gax STAT62>7 ED>26]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gax STAT62>6 ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gax STAT62>11 ED>69]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gax STAT62>10 ED>59]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Humongous (gix)
 ItemDisplay[UNI gix STAT0>29 MAXDMG>24 ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gix STAT0>11 MAXDMG>6 ED>49]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gix STAT0>9 MAXDMG>4 ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gix STAT0>26 MAXDMG>21 ED>106]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gix STAT0>22 MAXDMG>17 ED>93]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gix]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Maelstromwrath (ywn)
 ItemDisplay[UNI ywn SK74>2 SK77>2 SK66>2 SK76>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ywn SK74>-2 SK77>-2 SK66>-2 SK76>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ywn SK74>-2 SK77>-2 SK66>-2 SK76>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ywn SK74>1 SK77>1 SK66>1 SK76>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ywn SK74>1 SK77>1 SK66>1 SK76>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ywn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gravenspine (bwn)
 ItemDisplay[UNI bwn MANA>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bwn MANA>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bwn MANA>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bwn MANA>41]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bwn MANA>32]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bwn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Felloak (clb)
 ItemDisplay[UNI clb ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI clb ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI clb ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI clb ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI clb ED>72]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI clb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Knell Striker (scp)
 ItemDisplay[UNI scp ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI scp ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI scp ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI scp ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI scp ED>72]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI scp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Rusthandle (gsc)
 ItemDisplay[UNI gsc ED>59 STAT122>59 SK111>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gsc ED>41 STAT122>41 SK111>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gsc ED>39 STAT122>39 SK111>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gsc ED>56 STAT122>56 SK111>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gsc ED>52 STAT122>52 SK111>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gsc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stormeye (wsp)
 ItemDisplay[UNI wsp ED>119 SK110>4]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI wsp ED>49 SK110>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI wsp ED>39 SK110>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI wsp ED>106 SK110>3]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI wsp ED>93 SK110>3]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI wsp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stoutnail (spc)
 ItemDisplay[UNI spc STAT78>9]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI spc STAT78>-3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI spc STAT78>-5]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI spc STAT78>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI spc STAT78>4]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI spc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Crushflange (mac)
 ItemDisplay[UNI mac ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI mac ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI mac ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI mac ED>56]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI mac ED>52]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI mac]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Generals Tan Do Li Ga (fla)
 ItemDisplay[UNI fla ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI fla ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI fla ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI fla ED>56]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI fla ED>52]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI fla]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ironstone (whm)
 ItemDisplay[UNI whm STAT19>149 ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI whm STAT19>61 ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI whm STAT19>49 ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI whm STAT19>132 ED>132]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI whm STAT19>116 ED>116]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI whm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bonesob (mau)
 ItemDisplay[UNI mau ED>299]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI mau ED>124]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI mau ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI mau ED>266]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI mau ED>233]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI mau]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steeldriver (gma)
 ItemDisplay[UNI gma ED>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gma ED>74]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gma ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gma ED>216]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gma ED>183]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gma]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blood Crescent (scm)
 ItemDisplay[UNI scm ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI scm ED>44]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI scm ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI scm ED>72]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI scm ED>66]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI scm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gleamscythe (flc)
 ItemDisplay[UNI flc ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI flc ED>29]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI flc ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI flc ED>86]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI flc ED>73]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI flc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Griswolds Edge (bsd)
 ItemDisplay[UNI bsd STAT48>11 STAT49>24 ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bsd STAT48>7 STAT49>6 ED>49]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bsd STAT48>7 STAT49>4 ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bsd STAT48>10 STAT49>21 ED>106]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bsd STAT48>10 STAT49>17 ED>93]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bsd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hellplague (lsd)
 ItemDisplay[UNI lsd ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lsd ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lsd ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lsd ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lsd ED>72]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lsd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Culwens Point (wsd)
 ItemDisplay[UNI wsd ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI wsd ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI wsd ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI wsd ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI wsd ED>72]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI wsd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Soulflay (clm)
 ItemDisplay[UNI clm STAT62>9 ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI clm STAT62>-2 ED>46]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI clm STAT62>-3 ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI clm STAT62>7 ED>89]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI clm STAT62>5 ED>79]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI clm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Kinemils Awl (gis)
 ItemDisplay[UNI gis STAT19>149 STAT49>39 ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gis STAT19>61 STAT49>4 ED>64]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gis STAT19>49 STAT49>-1 ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gis STAT19>132 STAT49>32 ED>92]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gis STAT19>116 STAT49>26 ED>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gis]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blacktongue (bsw)
 ItemDisplay[UNI bsw ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bsw ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bsw ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bsw ED>56]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bsw ED>52]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bsw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ripsaw (flb)
 ItemDisplay[UNI flb ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI flb ED>64]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI flb ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI flb ED>92]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI flb ED>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI flb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Patriarch (gsd)
 ItemDisplay[UNI gsd ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gsd ED>84]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gsd ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gsd ED>112]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gsd ED>106]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gsd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Jade Tan Do (kri)
 ItemDisplay[UNI kri STAT19>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI kri STAT19>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI kri STAT19>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI kri STAT19>132]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI kri STAT19>116]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI kri]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Razortine (tri)
 ItemDisplay[UNI tri ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI tri ED>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI tri ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI tri ED>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI tri ED>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI tri]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bloodthief (brn)
 ItemDisplay[UNI brn STAT60>11 ED>69]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI brn STAT60>4 ED>34]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI brn STAT60>3 ED>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI brn STAT60>10 ED>62]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI brn STAT60>8 ED>56]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI brn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Tannr Gorerod (pik)
 ItemDisplay[UNI pik ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI pik ED>64]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI pik ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI pik ED>92]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI pik ED>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI pik]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steelgoad (vou)
 ItemDisplay[UNI vou ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI vou ED>44]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI vou ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI vou ED>72]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI vou ED>66]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI vou]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Soul Harvest (scy)
 ItemDisplay[UNI scy ED>89]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI scy ED>19]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI scy ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI scy ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI scy ED>63]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI scy]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Battlebranch (pax)
 ItemDisplay[UNI pax ED>69 STAT19>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI pax ED>34 STAT19>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI pax ED>29 STAT19>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI pax ED>62 STAT19>82]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI pax ED>56 STAT19>66]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI pax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Woestave (hal)
 ItemDisplay[UNI hal ED>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hal ED>4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hal ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hal ED>32]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hal ED>26]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hal]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bane Ash (sst)
 ItemDisplay[UNI sst ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI sst ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI sst ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI sst ED>56]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI sst ED>52]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI sst]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Serpent Lord (lst)
 ItemDisplay[UNI lst ED>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lst ED>21]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lst ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lst ED>36]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lst ED>32]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lst]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Witherstring (hbw)
 ItemDisplay[UNI hbw ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hbw ED>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hbw ED>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hbw ED>46]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hbw ED>42]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hbw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Rimeraven (lbw)
 ItemDisplay[UNI lbw ED>69]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lbw ED>51]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lbw ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lbw ED>66]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lbw ED>62]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lbw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Piercerib (cbw)
 ItemDisplay[UNI cbw ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI cbw ED>24]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI cbw ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI cbw ED>52]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI cbw ED>46]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI cbw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Pullspite (sbb)
 ItemDisplay[UNI sbb ED>89]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI sbb ED>54]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI sbb ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI sbb ED>82]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI sbb ED>76]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI sbb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Wizendraw (lbb)
 ItemDisplay[UNI lbb STAT19>99 ED>79 STAT335>34]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lbb STAT19>11 ED>61 STAT335>8]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lbb STAT19>-1 ED>59 STAT335>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lbb STAT19>82 ED>76 STAT335>29]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lbb STAT19>66 ED>72 STAT335>24]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lbb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hellclap (swb)
 ItemDisplay[UNI swb STAT49>49 STAT19>74 ED>89]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI swb STAT49>14 STAT19>30 ED>54]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI swb STAT49>9 STAT19>24 ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI swb STAT49>42 STAT19>66 ED>82]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI swb STAT49>36 STAT19>57 ED>76]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI swb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blastbark (lwb)
 ItemDisplay[UNI lwb ED>129]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lwb ED>24]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lwb ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lwb ED>109]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lwb ED>89]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lwb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hellcast (hxb)
 ItemDisplay[UNI hxb ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hxb ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hxb ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hxb ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hxb ED>72]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hxb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Doomspittle (rxb)
 ItemDisplay[UNI rxb ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI rxb ED>29]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI rxb ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI rxb ED>86]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI rxb ED>73]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI rxb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Tarnhelm (skp)
 ItemDisplay[UNI skp MFIND>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI skp MFIND>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI skp MFIND>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI skp MFIND>41]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI skp MFIND>32]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI skp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Duskdeep (fhl)
 ItemDisplay[UNI fhl ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI fhl ED>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI fhl ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI fhl ED>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI fhl ED>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI fhl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Undead Crown (crn)
 ItemDisplay[UNI crn ED>59 STAT124>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI crn ED>6 STAT124>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI crn ED>-1 STAT124>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI crn ED>49 STAT124>82]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI crn ED>39 STAT124>66]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI crn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Darkglow (rng)
 ItemDisplay[UNI rng ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI rng ED>46]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI rng ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI rng ED>89]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI rng ED>79]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI rng]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hawkmail (scl)
 ItemDisplay[UNI scl ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI scl ED>64]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI scl ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI scl ED>92]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI scl ED>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI scl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Sparking Mail (chn)
 ItemDisplay[UNI chn ED>84 STAT128>13]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI chn ED>66 STAT128>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI chn ED>64 STAT128>5]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI chn ED>81 STAT128>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI chn ED>77 STAT128>10]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI chn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Venomsward (brs)
 ItemDisplay[UNI brs ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI brs ED>29]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI brs ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI brs ED>86]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI brs ED>73]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI brs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Iceblink (spl)
 ItemDisplay[UNI spl ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI spl ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI spl ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI spl ED>76]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI spl ED>72]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI spl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Boneflesh (plt)
 ItemDisplay[UNI plt ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI plt ED>84]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI plt ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI plt ED>112]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI plt ED>106]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI plt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Rockfleece (fld)
 ItemDisplay[UNI fld ED>129]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI fld ED>76]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI fld ED>69]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI fld ED>119]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI fld ED>109]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI fld]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Goldskin (ful)
 ItemDisplay[UNI ful ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ful ED>96]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ful ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ful ED>139]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ful ED>129]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ful]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Victors Silk (aar)
 ItemDisplay[UNI aar ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI aar ED>84]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI aar ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI aar ED>112]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI aar ED>106]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI aar]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Pelta Lunata (buc)
 ItemDisplay[UNI buc ED>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI buc ED>21]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI buc ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI buc ED>36]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI buc ED>32]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI buc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Umbral Disk (sml)
 ItemDisplay[UNI sml ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI sml ED>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI sml ED>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI sml ED>46]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI sml ED>42]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI sml]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stormguild (lrg)
 ItemDisplay[UNI lrg ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lrg ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lrg ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lrg ED>56]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lrg ED>52]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lrg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Wall of the Eyeless (bsh)
 ItemDisplay[UNI bsh ED>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bsh ED>21]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bsh ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bsh ED>36]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bsh ED>32]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bsh]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Swordback Hold (spk)
 ItemDisplay[UNI spk ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI spk ED>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI spk ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI spk ED>49]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI spk ED>39]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI spk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steelclash (kit)
 ItemDisplay[UNI kit ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI kit ED>29]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI kit ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI kit ED>86]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI kit ED>73]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI kit]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bverrit Keep (tow)
 ItemDisplay[UNI tow ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI tow ED>49]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI tow ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI tow ED>106]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI tow ED>93]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI tow]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Ward (gts)
 ItemDisplay[UNI gts RES>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI gts RES>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI gts RES>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI gts RES>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI gts RES>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI gts]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Hand of Broc (lgl)
 ItemDisplay[UNI lgl ED>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lgl ED>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lgl ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lgl ED>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lgl ED>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lgl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bloodfist (vgl)
 ItemDisplay[UNI vgl ED>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI vgl ED>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI vgl ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI vgl ED>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI vgl ED>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI vgl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Chance Guards (mgl)
 ItemDisplay[UNI mgl MFIND>39 ED>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI mgl MFIND>13 ED>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI mgl MFIND>9 ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI mgl MFIND>34 ED>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI mgl MFIND>29 ED>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI mgl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Magefist (tgl)
 ItemDisplay[UNI tgl ED>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI tgl ED>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI tgl ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI tgl ED>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI tgl ED>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI tgl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Frostburn (hgl)
 ItemDisplay[UNI hgl ED>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hgl ED>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hgl ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hgl ED>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hgl ED>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hgl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hotspur (lbt)
 ItemDisplay[UNI lbt ED>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI lbt ED>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI lbt ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI lbt ED>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI lbt ED>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI lbt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gorefoot (vbt)
 ItemDisplay[UNI vbt ED>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI vbt ED>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI vbt ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI vbt ED>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI vbt ED>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI vbt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Treads of Cthon (mbt)
 ItemDisplay[UNI mbt ED>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI mbt ED>21]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI mbt ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI mbt ED>36]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI mbt ED>32]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI mbt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Goblin Toe (tbt)
 ItemDisplay[UNI tbt ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI tbt ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI tbt ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI tbt ED>56]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI tbt ED>52]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI tbt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Tearhaunch (hbt)
 ItemDisplay[UNI hbt ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hbt ED>44]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hbt ED>39]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hbt ED>72]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hbt ED>66]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hbt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Snakecord (vbl)
 ItemDisplay[UNI vbl ED>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI vbl ED>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI vbl ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI vbl ED>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI vbl ED>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI vbl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Nightsmoke (mbl)
 ItemDisplay[UNI mbl ED>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI mbl ED>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI mbl ED>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI mbl ED>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI mbl ED>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI mbl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Goldwrap (tbl)
 ItemDisplay[UNI tbl ED>59 GFIND>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI tbl ED>24 GFIND>26]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI tbl ED>19 GFIND>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI tbl ED>52 GFIND>69]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI tbl ED>46 GFIND>59]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI tbl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bladebuckle (hbl)
 ItemDisplay[UNI hbl ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI hbl ED>64]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI hbl ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI hbl ED>92]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI hbl ED>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI hbl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Coldkill (9ha)
 ItemDisplay[UNI 9ha ED>189]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ha ED>119]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ha ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ha ED>176]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ha ED>163]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ha]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Butcher's Pupil (9ax)
 ItemDisplay[UNI 9ax ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ax ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ax ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ax ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ax ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ax]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Islestrike (92a)
 ItemDisplay[UNI 92a ED>189]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 92a ED>154]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 92a ED>149]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 92a ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 92a ED>176]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 92a]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Pompe's Wrath (9mp)
 ItemDisplay[UNI 9mp ED>169]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9mp ED>116]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9mp ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9mp ED>159]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9mp ED>149]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9mp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Guardian Naga (9wa)
 ItemDisplay[UNI 9wa ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9wa ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9wa ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9wa ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9wa ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9wa]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spellsteel (9ba)
 ItemDisplay[UNI 9ba STAT35>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ba STAT35>9]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ba STAT35>8]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ba STAT35>13]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ba STAT35>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ba]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Boneslayer Blade (9ga)
 ItemDisplay[UNI 9ga ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ga ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ga ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ga ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ga ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ga]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Minataur (9gi)
 ItemDisplay[UNI 9gi STAT0>19 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9gi STAT0>10 ED>94]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9gi STAT0>9 ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9gi STAT0>17 ED>179]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9gi STAT0>16 ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9gi]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Dark Clan Crusher (9cl)
 ItemDisplay[UNI 9cl STAT119>24]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9cl STAT119>15]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9cl STAT119>14]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9cl STAT119>22]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9cl STAT119>21]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9cl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Zakarum's Hand (9sc)
 ItemDisplay[UNI 9sc ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9sc ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9sc ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9sc ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9sc ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9sc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Fetid Sprinkler (9qs)
 ItemDisplay[UNI 9qs ED>189 STAT19>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9qs ED>136 STAT19>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9qs ED>129 STAT19>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9qs ED>179 STAT19>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9qs ED>169 STAT19>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9qs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hand of Blessed Light (9ws)
 ItemDisplay[UNI 9ws ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ws ED>106]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ws ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ws ED>149]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ws ED>139]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ws]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Fleshrender (9sp)
 ItemDisplay[UNI 9sp ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9sp ED>76]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9sp ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9sp ED>176]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9sp ED>153]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9sp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Sureshrill Frost (9ma)
 ItemDisplay[UNI 9ma ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ma ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ma ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ma ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ma ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ma]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Moonfall (9mt)
 ItemDisplay[UNI 9mt STAT35>11 ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9mt STAT35>6 ED>96]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9mt STAT35>5 ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9mt STAT35>10 ED>139]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9mt STAT35>9 ED>129]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9mt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Baezil's Vortex (9fl)
 ItemDisplay[UNI 9fl ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9fl ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9fl ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9fl ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9fl ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9fl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bloodtree Stump (9m9)
 ItemDisplay[UNI 9m9 ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9m9 ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9m9 ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9m9 ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9m9 ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9m9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Gavel of Pain (9gm)
 ItemDisplay[UNI 9gm ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9gm ED>106]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9gm ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9gm ED>149]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9gm ED>139]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9gm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bloodletter (9ss)
 ItemDisplay[UNI 9ss SK127>3 SK151>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ss SK127>-1 SK151>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ss SK127>-1 SK151>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ss SK127>2 SK151>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ss SK127>2 SK151>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ss]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Coldsteel Eye (9sm)
 ItemDisplay[UNI 9sm ED>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9sm ED>161]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9sm ED>149]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9sm ED>232]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9sm ED>216]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9sm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hexfire (9sb)
 ItemDisplay[UNI 9sb ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9sb ED>124]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9sb ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9sb ED>152]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9sb ED>146]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9sb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blade of Ali Baba (9fc)
 ItemDisplay[UNI 9fc ED>119 STAT2>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9fc ED>14 STAT2>-4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9fc ED>-1 STAT2>-6]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9fc ED>99 STAT2>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9fc ED>79 STAT2>7]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9fc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ginther's Rift (9cr)
 ItemDisplay[UNI 9cr STAT35>11 ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9cr STAT35>2 ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9cr STAT35>1 ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9cr STAT35>9 ED>132]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9cr STAT35>8 ED>116]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9cr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Atlantian (9wd)
 ItemDisplay[UNI 9wd ED>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9wd ED>161]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9wd ED>149]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9wd ED>232]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9wd ED>216]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9wd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Crainte Vomir (92h)
 ItemDisplay[UNI 92h ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 92h ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 92h ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 92h ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 92h ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 92h]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bing Sz Wang (9cm)
 ItemDisplay[UNI 9cm ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9cm ED>106]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9cm ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9cm ED>149]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9cm ED>139]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9cm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Vile Husk (9gs)
 ItemDisplay[UNI 9gs ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9gs ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9gs ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9gs ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9gs ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9gs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Cloudcrack (9b9)
 ItemDisplay[UNI 9b9 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9b9 ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9b9 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9b9 ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9b9 ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9b9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Todesfaelle Flamme (9fb)
 ItemDisplay[UNI 9fb ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9fb ED>89]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9fb ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9fb ED>146]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9fb ED>133]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9fb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Swordguard (9gd)
 ItemDisplay[UNI 9gd RES>19 ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9gd RES>1 ED>161]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9gd RES>-1 ED>159]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9gd RES>16 ED>176]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9gd RES>12 ED>172]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9gd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spineripper (9dg)
 ItemDisplay[UNI 9dg ED>239]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9dg ED>169]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9dg ED>159]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9dg ED>226]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9dg ED>213]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9dg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Heart Carver (9di)
 ItemDisplay[UNI 9di ED>239]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9di ED>151]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9di ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9di ED>222]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9di ED>206]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9di]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Impaler (9sr)
 ItemDisplay[UNI 9sr ED>169]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9sr ED>116]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9sr ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9sr ED>159]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9sr ED>149]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9sr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Kelpie Snare (9tr)
 ItemDisplay[UNI 9tr ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9tr ED>109]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9tr ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9tr ED>166]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9tr ED>153]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9tr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Soulfeast Tine (9br)
 ItemDisplay[UNI 9br ED>189 STAT19>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9br ED>119 STAT19>74]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9br ED>109 STAT19>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9br ED>176 STAT19>216]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9br ED>163 STAT19>183]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9br]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hone Sundan (9st)
 ItemDisplay[UNI 9st ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9st ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9st ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9st ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9st ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9st]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spire of Honor (9p9)
 ItemDisplay[UNI 9p9 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9p9 ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9p9 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9p9 ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9p9 ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9p9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Meat Scraper (9b7)
 ItemDisplay[UNI 9b7 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9b7 ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9b7 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9b7 ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9b7 ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9b7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blackleach Blade (9vo)
 ItemDisplay[UNI 9vo ED>139]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9vo ED>69]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9vo ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9vo ED>126]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9vo ED>113]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9vo]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Athena's Wrath (9s8)
 ItemDisplay[UNI 9s8 CLSK5>2 ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9s8 CLSK5>-2 ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9s8 CLSK5>-2 ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9s8 CLSK5>1 ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9s8 CLSK5>1 ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9s8]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Pierre Tombale Couant (9pa)
 ItemDisplay[UNI 9pa ED>219 STAT19>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9pa ED>114 STAT19>24]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9pa ED>99 STAT19>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9pa ED>199 STAT19>166]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9pa ED>179 STAT19>133]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9pa]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Husoldal Evo (9h9)
 ItemDisplay[UNI 9h9 STAT19>249 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9h9 STAT19>161 ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9h9 STAT19>149 ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9h9 STAT19>232 ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9h9 STAT19>216 ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9h9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Grim's Burning Dead (9wc)
 ItemDisplay[UNI 9wc ED>179 STAT19>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9wc ED>109 STAT19>161]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9wc ED>99 STAT19>149]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9wc ED>166 STAT19>232]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9wc ED>153 STAT19>216]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9wc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ribcracker (8ls)
 ItemDisplay[UNI 8ls ED>299]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8ls ED>124]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8ls ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8ls ED>266]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8ls ED>233]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8ls]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Chromatic Ire (8cs)
 ItemDisplay[UNI 8cs RES>39 STAT76>24]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8cs RES>4 STAT76>15]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8cs RES>-1 STAT76>14]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8cs RES>32 STAT76>22]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8cs RES>26 STAT76>21]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8cs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Skystrike (8sb)
 ItemDisplay[UNI 8sb ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8sb ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8sb ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8sb ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8sb ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8sb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Riphook (8hb)
 ItemDisplay[UNI 8hb ED>219 STAT60>9]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8hb ED>149 STAT60>4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8hb ED>139 STAT60>3]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8hb ED>206 STAT60>8]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8hb ED>193 STAT60>7]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8hb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Kuko Shakaku (8lb)
 ItemDisplay[UNI 8lb ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8lb ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8lb ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8lb ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8lb ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8lb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Endlesshail (8cb)
 ItemDisplay[UNI 8cb SK26>4 ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8cb SK26>0 ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8cb SK26>0 ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8cb SK26>3 ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8cb SK26>3 ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8cb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Whichwild String (8s8)
 ItemDisplay[UNI 8s8 ED>169]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8s8 ED>134]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8s8 ED>129]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8s8 ED>162]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8s8 ED>156]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8s8]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Cliffkiller (8l8)
 ItemDisplay[UNI 8l8 ED>229 MINDMG>9 MAXDMG>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8l8 ED>159 MINDMG>0 MAXDMG>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8l8 ED>149 MINDMG>-1 MAXDMG>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8l8 ED>216 MINDMG>7 MAXDMG>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8l8 ED>203 MINDMG>6 MAXDMG>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8l8]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Magewrath (8sw)
 ItemDisplay[UNI 8sw STAT35>12 STAT19>249 ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8sw STAT35>5 STAT19>161 ED>96]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8sw STAT35>4 STAT19>149 ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8sw STAT35>11 STAT19>232 ED>139]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8sw STAT35>9 STAT19>216 ED>129]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8sw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Godstrike Arch (8lw)
 ItemDisplay[UNI 8lw ED>249 STAT119>149 STAT122>199 STAT121>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8lw ED>161 STAT119>61 STAT122>24 STAT121>24]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8lw ED>149 STAT119>49 STAT122>-1 STAT121>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8lw ED>232 STAT119>132 STAT122>166 STAT121>166]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8lw ED>216 STAT119>116 STAT122>133 STAT121>133]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8lw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Langer Briser (8lx)
 ItemDisplay[UNI 8lx ED>199 MFIND>59 MAXDMG>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8lx ED>146 MFIND>6 MAXDMG>-6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8lx ED>139 MFIND>-1 MAXDMG>-11]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8lx ED>189 MFIND>49 MAXDMG>22]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8lx ED>179 MFIND>39 MAXDMG>16]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8lx]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Pus Spiter (8mx)
 ItemDisplay[UNI 8mx ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8mx ED>96]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8mx ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8mx ED>196]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8mx ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8mx]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Buriza-Do Kyanon (8hx)
 ItemDisplay[UNI 8hx ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 8hx ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 8hx ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 8hx ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 8hx ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 8hx]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Peasent Crown (xap)
 ItemDisplay[UNI xap REPLIFE>11]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xap REPLIFE>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xap REPLIFE>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xap REPLIFE>9]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xap REPLIFE>7]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xap]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Rockstopper (xkp)
 ItemDisplay[UNI xkp STAT41>39 ED>219 STAT39>49 STAT43>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xkp STAT41>4 ED>114 STAT39>-4 STAT43>4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xkp STAT41>-1 ED>99 STAT39>-11 STAT43>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xkp STAT41>32 ED>199 STAT39>39 STAT43>32]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xkp STAT41>26 ED>179 STAT39>29 STAT43>26]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xkp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stealskull (xlm)
 ItemDisplay[UNI xlm ED>239 MFIND>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xlm ED>169 MFIND>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xlm ED>159 MFIND>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xlm ED>226 MFIND>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xlm ED>213 MFIND>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xlm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Darksight Helm (xhl)
 ItemDisplay[UNI xhl STAT39>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xhl STAT39>4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xhl STAT39>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xhl STAT39>32]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xhl STAT39>26]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xhl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Valkiry Wing (xhm)
 ItemDisplay[UNI xhm ED>199 CLSK0>1 MAEK>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xhm ED>111 CLSK0>-1 MAEK>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xhm ED>99 CLSK0>-1 MAEK>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xhm ED>182 CLSK0>1 MAEK>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xhm ED>166 CLSK0>0 MAEK>2]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xhm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Crown of Thieves (xrn)
 ItemDisplay[UNI xrn STAT60>11 ED>199 GFIND>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xrn STAT60>6 ED>129 GFIND>64]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xrn STAT60>5 ED>119 GFIND>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xrn STAT60>10 ED>186 GFIND>92]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xrn STAT60>9 ED>173 GFIND>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xrn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blackhorn's Face (xsk)
 ItemDisplay[UNI xsk ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xsk ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xsk ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xsk ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xsk ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xsk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Vampiregaze (xh9)
 ItemDisplay[UNI xh9 STAT62>7 STAT60>7 STAT36>19 STAT35>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xh9 STAT62>3 STAT60>3 STAT36>10 STAT35>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xh9 STAT62>3 STAT60>3 STAT36>9 STAT35>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xh9 STAT62>6 STAT60>6 STAT36>17 STAT35>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xh9 STAT62>6 STAT60>6 STAT36>16 STAT35>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xh9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Spirit Shroud (xui)
 ItemDisplay[UNI xui STAT35>10]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xui STAT35>3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xui STAT35>2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xui STAT35>9]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xui STAT35>7]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xui]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Skin of the Vipermagi (xea)
 ItemDisplay[UNI xea RES>34 STAT35>12]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xea RES>8 STAT35>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xea RES>4 STAT35>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xea RES>29 STAT35>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xea RES>24 STAT35>9]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xea]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Skin of the Flayerd One (xla)
 ItemDisplay[UNI xla REPLIFE>24 STAT60>6 ED>189]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xla REPLIFE>6 STAT60>2 ED>119]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xla REPLIFE>4 STAT60>2 ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xla REPLIFE>21 STAT60>5 ED>176]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xla REPLIFE>17 STAT60>5 ED>163]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xla]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ironpelt (xtu)
 ItemDisplay[UNI xtu STAT35>15 STAT34>19 ED>99]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xtu STAT35>4 STAT34>10 ED>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xtu STAT35>3 STAT34>9 ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xtu STAT35>13 STAT34>17 ED>82]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xtu STAT35>11 STAT34>16 ED>66]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xtu]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spiritforge (xng)
 ItemDisplay[UNI xng ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xng ED>89]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xng ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xng ED>146]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xng ED>133]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xng]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Crow Caw (xcl)
 ItemDisplay[UNI xcl ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xcl ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xcl ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xcl ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xcl ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xcl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Shaftstop (xhn)
 ItemDisplay[UNI xhn ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xhn ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xhn ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xhn ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xhn ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xhn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Duriel's Shell (xrs)
 ItemDisplay[UNI xrs ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xrs ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xrs ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xrs ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xrs ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xrs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Skullder's Ire (xpl)
 ItemDisplay[UNI xpl ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xpl ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xpl ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xpl ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xpl ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xpl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Guardian Angel (xlt)
 ItemDisplay[UNI xlt ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xlt ED>164]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xlt ED>159]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xlt ED>192]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xlt ED>186]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xlt]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Toothrow (xld)
 ItemDisplay[UNI xld STAT78>39 ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xld STAT78>4 ED>114]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xld STAT78>-1 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xld STAT78>32 ED>199]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xld STAT78>26 ED>179]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xld]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Atma's Wail (xth)
 ItemDisplay[UNI xth ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xth ED>89]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xth ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xth ED>146]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xth ED>133]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xth]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Black Hades (xul)
 ItemDisplay[UNI xul STAT123>249 ED>199 STAT121>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xul STAT123>161 ED>94 STAT121>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xul STAT123>149 ED>79 STAT121>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xul STAT123>232 ED>179 STAT121>49]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xul STAT123>216 ED>159 STAT121>39]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xul]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Corpsemourn (xar)
 ItemDisplay[UNI xar ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xar ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xar ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xar ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xar ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xar]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Que-Hegan's Wisdon (xtp)
 ItemDisplay[UNI xtp STAT35>9 ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xtp STAT35>2 ED>124]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xtp STAT35>1 ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xtp STAT35>8 ED>152]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xtp STAT35>6 ED>146]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xtp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Visceratuant (xuc)
 ItemDisplay[UNI xuc ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xuc ED>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xuc ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xuc ED>132]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xuc ED>116]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xuc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Mosers Blessed Circle (xml)
 ItemDisplay[UNI xml ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xml ED>149]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xml ED>139]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xml ED>206]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xml ED>193]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xml]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stormchaser (xrg)
 ItemDisplay[UNI xrg ED>219]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xrg ED>114]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xrg ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xrg ED>199]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xrg ED>179]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xrg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Tiamat's Rebuke (xit)
 ItemDisplay[UNI xit RES>34 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xit RES>16 ED>94]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xit RES>14 ED>79]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xit RES>31 ED>179]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xit RES>27 ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xit]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Kerke's Sanctuary (xow)
 ItemDisplay[UNI xow STAT34>15 STAT35>17 ED>239 RES>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xow STAT34>6 STAT35>10 ED>134 RES>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xow STAT34>5 STAT35>9 ED>119 RES>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xow STAT34>13 STAT35>16 ED>219 RES>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xow STAT34>12 STAT35>14 ED>199 RES>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xow]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Radimant's Sphere (xts)
 ItemDisplay[UNI xts ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xts ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xts ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xts ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xts ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xts]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lidless Wall (xsh)
 ItemDisplay[UNI xsh MAEK>4 ED>129]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xsh MAEK>0 ED>41]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xsh MAEK>0 ED>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xsh MAEK>3 ED>112]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xsh MAEK>3 ED>96]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xsh]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lance Guard (xpk)
 ItemDisplay[UNI xpk ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xpk ED>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xpk ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xpk ED>102]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xpk ED>86]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xpk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Venom Grip (xlg)
 ItemDisplay[UNI xlg ED>159]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xlg ED>106]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xlg ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xlg ED>149]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xlg ED>139]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xlg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gravepalm (xvg)
 ItemDisplay[UNI xvg STAT122>199 STAT124>199 ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xvg STAT122>24 STAT124>24 ED>109]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xvg STAT122>-1 STAT124>-1 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xvg STAT122>166 STAT124>166 ED>166]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xvg STAT122>133 STAT124>133 ED>153]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xvg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ghoulhide (xmg)
 ItemDisplay[UNI xmg STAT62>4 ED>189]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xmg STAT62>2 ED>119]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xmg STAT62>2 ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xmg STAT62>4 ED>176]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xmg STAT62>3 ED>163]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xmg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lavagout (xtg)
 ItemDisplay[UNI xtg ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xtg ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xtg ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xtg ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xtg ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xtg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hellmouth (xhg)
 ItemDisplay[UNI xhg ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xhg ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xhg ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xhg ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xhg ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xhg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Infernostride (xlb)
 ItemDisplay[UNI xlb ED>149 GFIND>69]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xlb ED>96 GFIND>16]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xlb ED>89 GFIND>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xlb ED>139 GFIND>59]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xlb ED>129 GFIND>49]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xlb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Waterwalk (xvb)
 ItemDisplay[UNI xvb ED>209 STAT7>64]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xvb ED>156 STAT7>29]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xvb ED>149 STAT7>24]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xvb ED>199 STAT7>57]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xvb ED>189 STAT7>51]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xvb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Silkweave (xmb)
 ItemDisplay[UNI xmb ED>189]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xmb ED>119]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xmb ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xmb ED>176]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xmb ED>163]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xmb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Wartraveler (xtb)
 ItemDisplay[UNI xtb MFIND>49 ED>189 STAT78>9]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xtb MFIND>14 ED>119 STAT78>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xtb MFIND>9 ED>109 STAT78>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xtb MFIND>42 ED>176 STAT78>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xtb MFIND>36 ED>163 STAT78>6]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xtb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gorerider (xhb)
 ItemDisplay[UNI xhb ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI xhb ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI xhb ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI xhb ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI xhb ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI xhb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // String of Ears (zlb)
 ItemDisplay[UNI zlb STAT35>14 STAT36>14 STAT60>7 ED>179]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI zlb STAT35>5 STAT36>5 STAT60>3 ED>126]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI zlb STAT35>4 STAT36>4 STAT60>3 ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI zlb STAT35>12 STAT36>12 STAT60>6 ED>169]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI zlb STAT35>11 STAT36>11 STAT60>6 ED>159]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI zlb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Razortail (zvb)
 ItemDisplay[UNI zvb ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI zvb ED>96]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI zvb ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI zvb ED>139]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI zvb ED>129]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI zvb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gloomstrap (zmb)
 ItemDisplay[UNI zmb ED>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI zmb ED>96]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI zmb ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI zmb ED>139]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI zmb ED>129]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI zmb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Snowclash (ztb)
 ItemDisplay[UNI ztb ED>169]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ztb ED>99]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ztb ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ztb ED>156]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ztb ED>143]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ztb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Thudergod's Vigor (zhb)
 ItemDisplay[UNI zhb ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI zhb ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI zhb ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI zhb ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI zhb ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI zhb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Gladiator's Bane (utu)
 ItemDisplay[UNI utu ED>199 STAT35>19 STAT34>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI utu ED>111 STAT35>10 STAT34>10]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI utu ED>99 STAT35>9 STAT34>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI utu ED>182 STAT35>17 STAT34>17]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI utu ED>166 STAT35>16 STAT34>16]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI utu]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Arkaine's Valor (upl)
 ItemDisplay[UNI upl ED>179 ALLSK>1 STAT34>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI upl ED>126 ALLSK>-1 STAT34>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI upl ED>119 ALLSK>-1 STAT34>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI upl ED>169 ALLSK>1 STAT34>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI upl ED>159 ALLSK>0 STAT34>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI upl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Blackoak Shield (uml)
 ItemDisplay[UNI uml ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uml ED>129]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uml ED>119]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uml ED>186]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uml ED>173]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uml]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Schaefer's Hammer (7wh)
 ItemDisplay[UNI 7wh ED>129]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7wh ED>76]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7wh ED>69]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7wh ED>119]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7wh ED>109]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7wh]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Cranium Basher (7gm)
 ItemDisplay[UNI 7gm ED>239]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gm ED>169]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gm ED>159]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gm ED>226]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gm ED>213]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lightsabre (7cr)
 ItemDisplay[UNI 7cr STAT62>6 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7cr STAT62>2 ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7cr STAT62>2 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7cr STAT62>5 ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7cr STAT62>5 ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7cr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Doombringer (7b7)
 ItemDisplay[UNI 7b7 ED>249 STAT60>6]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7b7 ED>126 STAT60>2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7b7 ED>109 STAT60>2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7b7 ED>226 STAT60>5]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7b7 ED>203 STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7b7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Grandfather (7gd)
 ItemDisplay[UNI 7gd ED>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gd ED>74]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gd ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gd ED>216]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gd ED>183]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stormspire (7wc)
 ItemDisplay[UNI 7wc ED>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7wc ED>74]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7wc ED>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7wc ED>216]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7wc ED>183]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7wc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Windforce (6lw)
 ItemDisplay[UNI 6lw STAT62>7]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 6lw STAT62>3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 6lw STAT62>3]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 6lw STAT62>6]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 6lw STAT62>6]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 6lw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Arreat's Face (baa)
 ItemDisplay[UNI baa ED>199 STAT60>5]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI baa ED>111 STAT60>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI baa ED>99 STAT60>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI baa ED>182 STAT60>4]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI baa ED>166 STAT60>3]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI baa]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Homunculus (nea)
 ItemDisplay[UNI nea ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI nea ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI nea ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI nea ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI nea ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI nea]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Titan's Revenge (ama)
 ItemDisplay[UNI ama ED>199 STAT60>8]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ama ED>111 STAT60>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ama ED>99 STAT60>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ama ED>182 STAT60>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ama ED>166 STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ama]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lycander's Aim (am7)
 ItemDisplay[UNI am7 ED>199 STAT62>7]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI am7 ED>111 STAT62>2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI am7 ED>99 STAT62>1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI am7 ED>182 STAT62>6]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI am7 ED>166 STAT62>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI am7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lycander's Flank (am9)
 ItemDisplay[UNI am9 ED>199 STAT60>8]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI am9 ED>111 STAT60>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI am9 ED>99 STAT60>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI am9 ED>182 STAT60>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI am9 ED>166 STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI am9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Herald of Zakarum (pa9)
 ItemDisplay[UNI pa9 ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI pa9 ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI pa9 ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI pa9 ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI pa9 ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI pa9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Cutthroat1 (9tw)
 ItemDisplay[UNI 9tw ED>199 STAT60>8]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9tw ED>111 STAT60>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9tw ED>99 STAT60>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9tw ED>182 STAT60>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9tw ED>166 STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9tw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Jalal's Mane (dra)
 ItemDisplay[UNI dra ED>199]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI dra ED>111]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI dra ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI dra ED>182]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI dra ED>166]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI dra]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Scalper (9ta)
 ItemDisplay[UNI 9ta ED>199 STAT60>5]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9ta ED>111 STAT60>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9ta ED>99 STAT60>1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9ta ED>182 STAT60>4]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9ta ED>166 STAT60>4]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9ta]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bloodmoon (7sb)
 ItemDisplay[UNI 7sb ED>259 STAT60>14 STAT86>12]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7sb ED>171 STAT60>5 STAT86>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7sb ED>159 STAT60>4 STAT86>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7sb ED>242 STAT60>12 STAT86>10]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7sb ED>226 STAT60>11 STAT86>8]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7sb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Djinnslayer (7sm)
 ItemDisplay[UNI 7sm ED>239 STAT121>149 STAT123>299 STAT145>6 STAT62>5 STAT194>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7sm ED>151 STAT121>61 STAT123>124 STAT145>-1 STAT62>0 STAT194>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7sm ED>139 STAT121>49 STAT123>99 STAT145>-2 STAT62>-1 STAT194>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7sm ED>222 STAT121>132 STAT123>266 STAT145>5 STAT62>4 STAT194>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7sm ED>206 STAT121>116 STAT123>233 STAT145>3 STAT62>3 STAT194>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7sm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Deathbit (9tk)
 ItemDisplay[UNI 9tk ED>179 STAT19>449 STAT60>8 STAT62>5]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 9tk ED>91 STAT19>11 STAT60>4 STAT62>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 9tk ED>79 STAT19>-51 STAT60>4 STAT62>1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 9tk ED>162 STAT19>366 STAT60>7 STAT62>4]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 9tk ED>146 STAT19>284 STAT60>7 STAT62>4]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 9tk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Warshrike (7bk)
 ItemDisplay[UNI 7bk ED>249]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7bk ED>161]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7bk ED>149]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7bk ED>232]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7bk ED>216]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7bk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gutsiphon (6rx)
 ItemDisplay[UNI 6rx ED>219 STAT60>17]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 6rx ED>114 STAT60>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 6rx ED>99 STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 6rx ED>199 STAT60>15]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 6rx ED>179 STAT60>13]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 6rx]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Razoredge (7ha)
 ItemDisplay[UNI 7ha ED>224]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7ha ED>136]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7ha ED>124]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7ha ED>207]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7ha ED>191]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7ha]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Demonlimb (7sp)
 ItemDisplay[UNI 7sp ED>229 STAT60>12 STAT39>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7sp ED>141 STAT60>1 STAT39>10]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7sp ED>129 STAT60>0 STAT39>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7sp ED>212 STAT60>10 STAT39>17]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7sp ED>196 STAT60>8 STAT39>16]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7sp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steelshade (ulm)
 ItemDisplay[UNI ulm ED>129 STAT143>10 STAT62>7 REPLIFE>17]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ulm ED>76 STAT143>-1 STAT62>0 REPLIFE>3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ulm ED>69 STAT143>-2 STAT62>-1 REPLIFE>1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ulm ED>119 STAT143>8 STAT62>6 REPLIFE>14]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ulm ED>109 STAT143>6 STAT62>4 REPLIFE>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ulm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Tomb Reaver (7pa)
 ItemDisplay[UNI 7pa ED>279 STAT122>229 MFIND>79 RES>49 STAT124>349 STAT86>13]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7pa ED>139 STAT122>89 MFIND>26 RES>14 STAT124>174 STAT86>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7pa ED>119 STAT122>69 MFIND>19 RES>9 STAT124>149 STAT86>5]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7pa ED>253 STAT122>203 MFIND>69 RES>42 STAT124>316 STAT86>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7pa ED>226 STAT122>176 MFIND>59 RES>36 STAT124>283 STAT86>10]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7pa]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Deaths's Web (7gw)
 ItemDisplay[UNI 7gw STAT336>49 STAT86>11 MAEK>11 TABSK17>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gw STAT336>31 STAT86>2 MAEK>2 TABSK17>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gw STAT336>29 STAT86>1 MAEK>1 TABSK17>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gw STAT336>46 STAT86>9 MAEK>9 TABSK17>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gw STAT336>42 STAT86>8 MAEK>8 TABSK17>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Azurewrath (7cr)
 ItemDisplay[UNI 7cr ED>269 STAT151>12 STAT4>9]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7cr ED>199 STAT151>7 STAT4>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7cr ED>189 STAT151>6 STAT4>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7cr ED>256 STAT151>11 STAT4>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7cr ED>243 STAT151>10 STAT4>6]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7cr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Fleshripper (7kr)
 ItemDisplay[UNI 7kr ED>299]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7kr ED>124]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7kr ED>99]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7kr ED>266]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7kr ED>233]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7kr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Horizon's Tornado (7fl)
 ItemDisplay[UNI 7fl ED>279]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7fl ED>191]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7fl ED>179]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7fl ED>262]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7fl ED>246]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7fl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stone Crusher (7wh)
 ItemDisplay[UNI 7wh ED>319 STAT0>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7wh ED>249 STAT0>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7wh ED>239 STAT0>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7wh ED>306 STAT0>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7wh ED>293 STAT0>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7wh]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Jadetalon (7wb)
 ItemDisplay[UNI 7wb ED>239 STAT62>14 RES>49 TABSK49>1 TABSK50>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7wb ED>151 STAT62>5 RES>31 TABSK49>-1 TABSK50>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7wb ED>139 STAT62>4 RES>29 TABSK49>-1 TABSK50>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7wb ED>222 STAT62>12 RES>46 TABSK49>1 TABSK50>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7wb ED>206 STAT62>11 RES>42 TABSK49>0 TABSK50>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7wb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Shadowdancer (uhb)
 ItemDisplay[UNI uhb ED>99 STAT2>24 TABSK49>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uhb ED>46 STAT2>6 TABSK49>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uhb ED>39 STAT2>4 TABSK49>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uhb ED>89 STAT2>21 TABSK49>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uhb ED>79 STAT2>17 TABSK49>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uhb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Cerebus (drb)
 ItemDisplay[UNI drb ED>139 TABSK41>3 STAT60>9 STAT119>119 SK232>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI drb ED>121 TABSK41>-1 STAT60>4 STAT119>14 SK232>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI drb ED>119 TABSK41>-1 STAT60>3 STAT119>-1 SK232>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI drb ED>136 TABSK41>2 STAT60>8 STAT119>99 SK232>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI drb ED>132 TABSK41>2 STAT60>7 STAT119>79 SK232>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI drb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Souldrain (umg)
 ItemDisplay[UNI umg ED>119 STAT62>6 STAT60>6]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI umg ED>66 STAT62>1 STAT60>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI umg ED>59 STAT62>0 STAT60>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI umg ED>109 STAT62>5 STAT60>5]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI umg ED>99 STAT62>4 STAT60>4]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI umg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Runemaster (72a)
 ItemDisplay[UNI 72a ED>269 STAT194>4]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 72a ED>181 STAT194>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 72a ED>169 STAT194>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 72a ED>252 STAT194>3]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 72a ED>236 STAT194>3]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 72a]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Deathcleaver (7wa)
 ItemDisplay[UNI 7wa ED>279 STAT86>8]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7wa ED>191 STAT86>3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7wa ED>179 STAT86>2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7wa ED>262 STAT86>7]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7wa ED>246 STAT86>6]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7wa]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Executioner's Justice (7gi)
 ItemDisplay[UNI 7gi ED>289]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gi ED>201]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gi ED>189]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gi ED>272]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gi ED>256]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gi]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stoneraven (amd)
 ItemDisplay[UNI amd ED>279 RES>49 TABSK2>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI amd ED>191 RES>14 TABSK2>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI amd ED>179 RES>9 TABSK2>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI amd ED>262 RES>42 TABSK2>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI amd ED>246 RES>36 TABSK2>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI amd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Leviathan (uld)
 ItemDisplay[UNI uld ED>199 STAT36>24 STAT0>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uld ED>146 STAT36>6 STAT0>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uld ED>139 STAT36>4 STAT0>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uld ED>189 STAT36>21 STAT0>46]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uld ED>179 STAT36>17 STAT0>42]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uld]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gargoyle's Bite (7ts)
 ItemDisplay[UNI 7ts ED>229 STAT60>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7ts ED>141 STAT60>3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7ts ED>129 STAT60>2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7ts ED>212 STAT60>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7ts ED>196 STAT60>10]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7ts]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Lacerator (7b8)
 ItemDisplay[UNI 7b8 ED>209]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7b8 ED>104]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7b8 ED>89]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7b8 ED>189]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7b8 ED>169]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7b8]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Mang Song's Lesson (6ws)
 ItemDisplay[UNI 6ws STAT333>14 STAT334>14 STAT335>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 6ws STAT333>0 STAT334>0 STAT335>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 6ws STAT333>-2 STAT334>-2 STAT335>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 6ws STAT333>11 STAT334>11 STAT335>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 6ws STAT333>9 STAT334>9 STAT335>9]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 6ws]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Viperfork (7br)
 ItemDisplay[UNI 7br ED>239 STAT19>249 STAT45>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7br ED>151 STAT19>161 STAT45>14]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7br ED>139 STAT19>149 STAT45>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7br ED>222 STAT19>232 STAT45>42]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7br ED>206 STAT19>216 STAT45>36]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7br]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ethereal Edge (7ba)
 ItemDisplay[UNI 7ba ED>179 STAT143>11 STAT121>199 STAT139>9 STAT19>349]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7ba ED>126 STAT143>7 STAT121>111 STAT139>0 STAT19>209]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7ba ED>119 STAT143>7 STAT121>99 STAT139>-1 STAT19>189]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7ba ED>169 STAT143>10 STAT121>182 STAT139>7 STAT19>323]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7ba ED>159 STAT143>10 STAT121>166 STAT139>6 STAT19>296]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7ba]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Demonhorn's Edge (bad)
 ItemDisplay[UNI bad ED>159 STAT60>5 STAT78>76 TABSK32>2 TABSK33>2 TABSK34>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bad ED>89 STAT60>0 STAT78>37 TABSK32>-2 TABSK33>-2 TABSK34>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bad ED>79 STAT60>-1 STAT78>32 TABSK32>-2 TABSK33>-2 TABSK34>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bad ED>146 STAT60>4 STAT78>69 TABSK32>1 TABSK33>1 TABSK34>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bad ED>133 STAT60>3 STAT78>61 TABSK32>1 TABSK33>1 TABSK34>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bad]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Reaper's Toll (7s8)
 ItemDisplay[UNI 7s8 ED>239 STAT60>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7s8 ED>151 STAT60>7]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7s8 ED>139 STAT60>6]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7s8 ED>222 STAT60>13]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7s8 ED>206 STAT60>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7s8]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spiritkeeper (drd)
 ItemDisplay[UNI drd ED>189 STAT145>13 STAT39>39 STAT148>24 CLSK5>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI drd ED>154 STAT145>4 STAT39>21 STAT148>6 CLSK5>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI drd ED>149 STAT145>3 STAT39>19 STAT148>4 CLSK5>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI drd ED>182 STAT145>11 STAT39>36 STAT148>21 CLSK5>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI drd ED>176 STAT145>10 STAT39>32 STAT148>17 CLSK5>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI drd]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Hellrack (6hx)
 ItemDisplay[UNI 6hx ED>229 STAT126>323 STAT119>149]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 6hx ED>141 STAT126>-134 STAT119>61]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 6hx ED>129 STAT126>-199 STAT119>49]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 6hx ED>212 STAT126>237 STAT119>132]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 6hx ED>196 STAT126>151 STAT119>116]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 6hx]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Alma Negra (pac)
 ItemDisplay[UNI pac ED>209 CLSK3>1 STAT35>8 STAT119>74 ED>74]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI pac ED>156 CLSK3>-1 STAT35>1 STAT119>13 ED>13]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI pac ED>149 CLSK3>-1 STAT35>0 STAT119>4 ED>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI pac ED>199 CLSK3>1 STAT35>7 STAT119>62 ED>62]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI pac ED>189 CLSK3>0 STAT35>5 STAT119>51 ED>51]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI pac]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Darkforge Spawn (nef)
 ItemDisplay[UNI nef ED>179 TABSK18>2 TABSK17>2 TABSK16>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI nef ED>109 TABSK18>-2 TABSK17>-2 TABSK16>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI nef ED>99 TABSK18>-2 TABSK17>-2 TABSK16>-2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI nef ED>166 TABSK18>1 TABSK17>1 TABSK16>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI nef ED>153 TABSK18>1 TABSK17>1 TABSK16>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI nef]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Widowmaker (6sw)
 ItemDisplay[UNI 6sw ED>199 SK22>4]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 6sw ED>111 SK22>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 6sw ED>99 SK22>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 6sw ED>182 SK22>3]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 6sw ED>166 SK22>3]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 6sw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bloodraven's Charge (amb)
 ItemDisplay[UNI amb ED>229 STAT119>299 TABSK0>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI amb ED>141 STAT119>124 TABSK0>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI amb ED>129 STAT119>99 TABSK0>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI amb ED>212 STAT119>266 TABSK0>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI amb ED>196 STAT119>233 TABSK0>2]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI amb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ghostflame (7bl)
 ItemDisplay[UNI 7bl ED>239 STAT62>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7bl ED>151 STAT62>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7bl ED>139 STAT62>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7bl ED>222 STAT62>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7bl ED>206 STAT62>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7bl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Shadowkiller (7cs)
 ItemDisplay[UNI 7cs ED>219 MAEK>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7cs ED>131 MAEK>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7cs ED>119 MAEK>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7cs ED>202 MAEK>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7cs ED>186 MAEK>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7cs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Gimmershred (7ta)
 ItemDisplay[UNI 7ta ED>209]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7ta ED>121]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7ta ED>109]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7ta ED>192]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7ta ED>176]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7ta]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Griffon's Eye (ci3)
 ItemDisplay[UNI ci3 STAT330>14 STAT334>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ci3 STAT330>5 STAT334>10]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ci3 STAT330>4 STAT334>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ci3 STAT330>12 STAT334>17]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ci3 STAT330>11 STAT334>16]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ci3]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Windhammer (7m7)
 ItemDisplay[UNI 7m7 ED>229]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7m7 ED>141]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7m7 ED>129]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7m7 ED>212]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7m7 ED>196]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7m7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Thunderstroke (amf)
 ItemDisplay[UNI amf ED>199 TABSK2>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI amf ED>111 TABSK2>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI amf ED>99 TABSK2>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI amf ED>182 TABSK2>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI amf ED>166 TABSK2>2]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI amf]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Demon's Arch (7s7)
 ItemDisplay[UNI 7s7 ED>209 STAT60>11]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7s7 ED>121 STAT60>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7s7 ED>109 STAT60>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7s7 ED>192 STAT60>9]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7s7 ED>176 STAT60>7]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7s7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Boneflame (nee)
 ItemDisplay[UNI nee ED>149 CLSK2>2 RES>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI nee ED>96 CLSK2>0 RES>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI nee ED>89 CLSK2>0 RES>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI nee ED>139 CLSK2>2 RES>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI nee ED>129 CLSK2>1 RES>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI nee]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steelpillar (7p7)
 ItemDisplay[UNI 7p7 ED>259 ED>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7p7 ED>171 ED>26]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7p7 ED>159 ED>19]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7p7 ED>242 ED>69]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7p7 ED>226 ED>59]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7p7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Nightwing's Veil (uhm)
 ItemDisplay[UNI uhm ED>119 STAT2>19 STAT149>8 STAT331>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uhm ED>66 STAT2>1 STAT149>1 STAT331>2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uhm ED>59 STAT2>-1 STAT149>0 STAT331>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uhm ED>109 STAT2>16 STAT149>7 STAT331>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uhm ED>99 STAT2>12 STAT149>5 STAT331>9]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uhm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Crown of Ages (urn)
 ItemDisplay[UNI urn RES>29 STAT36>14 STAT194>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI urn RES>11 STAT36>5 STAT194>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI urn RES>9 STAT36>4 STAT194>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI urn RES>26 STAT36>12 STAT194>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI urn RES>22 STAT36>11 STAT194>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI urn]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Andariel's Visage (usk)
 ItemDisplay[UNI usk ED>149 STAT0>29 STAT60>9]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI usk ED>61 STAT0>20 STAT60>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI usk ED>49 STAT0>19 STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI usk ED>132 STAT0>27 STAT60>8]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI usk ED>116 STAT0>26 STAT60>8]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI usk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Dragonscale (pae)
 ItemDisplay[UNI pae ED>199 STAT142>19 STAT0>24]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI pae ED>146 STAT142>1 STAT0>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI pae ED>139 STAT142>-1 STAT0>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI pae ED>189 STAT142>16 STAT0>21]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI pae ED>179 STAT142>12 STAT0>17]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI pae]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steel Carapice (uul)
 ItemDisplay[UNI uul ED>219 STAT34>13 STAT43>59 STAT27>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uul ED>166 STAT34>4 STAT43>24 STAT27>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uul ED>159 STAT34>3 STAT43>19 STAT27>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uul ED>209 STAT34>11 STAT43>52 STAT27>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uul ED>199 STAT34>10 STAT43>46 STAT27>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uul]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Medusa's Gaze (uow)
 ItemDisplay[UNI uow ED>179 STAT60>8 STAT43>79]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uow ED>126 STAT60>1 STAT43>9]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uow ED>119 STAT60>0 STAT43>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uow ED>169 STAT60>7 STAT43>66]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uow ED>159 STAT60>5 STAT43>53]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uow]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ravenlore (dre)
 ItemDisplay[UNI dre ED>149 RES>24 STAT1>29 STAT333>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI dre ED>96 RES>6 STAT1>11 STAT333>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI dre ED>89 RES>4 STAT1>9 STAT333>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI dre ED>139 RES>21 STAT1>26 STAT333>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI dre ED>129 RES>17 STAT1>22 STAT333>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI dre]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Boneshade (7bw)
 ItemDisplay[UNI 7bw SK67>4 SK68>4 SK84>2 SK93>1 SK78>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7bw SK67>2 SK68>2 SK84>0 SK93>-1 SK78>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7bw SK67>2 SK68>2 SK84>0 SK93>-1 SK78>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7bw SK67>4 SK68>4 SK84>2 SK93>1 SK78>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7bw SK67>3 SK68>3 SK84>1 SK93>0 SK78>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7bw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Flamebellow (7gs)
 ItemDisplay[UNI 7gs ED>239 STAT142>29 STAT0>19 STAT3>9 SK41>17]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gs ED>116 STAT142>11 STAT0>1 STAT3>0 SK41>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gs ED>99 STAT142>9 STAT0>-1 STAT3>-1 SK41>5]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gs ED>216 STAT142>26 STAT0>16 STAT3>7 SK41>15]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gs ED>193 STAT142>22 STAT0>12 STAT3>6 SK41>13]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Fathom (obf)
 ItemDisplay[UNI obf STAT331>29 STAT39>39 STAT41>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI obf STAT331>3 STAT39>13 STAT41>13]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI obf STAT331>-1 STAT39>9 STAT41>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI obf STAT331>24 STAT39>34 STAT41>34]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI obf STAT331>19 STAT39>29 STAT41>29]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI obf]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Wolfhowl (bac)
 ItemDisplay[UNI bac ED>149 TABSK34>2 STAT0>14 STAT2>14 STAT3>14 SK223>5 SK224>5 SK232>5]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bac ED>96 TABSK34>0 STAT0>2 STAT2>2 STAT3>2 SK223>0 SK224>0 SK232>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bac ED>89 TABSK34>0 STAT0>0 STAT2>0 STAT3>0 SK223>-1 SK224>-1 SK232>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bac ED>139 TABSK34>2 STAT0>12 STAT2>12 STAT3>12 SK223>4 SK224>4 SK232>4]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bac ED>129 TABSK34>1 STAT0>9 STAT2>9 STAT3>9 SK223>3 SK224>3 SK232>3]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bac]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spirit Ward (uts)
 ItemDisplay[UNI uts ED>179 STAT149>10 RES>39 STAT20>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uts ED>91 STAT149>1 RES>21 STAT20>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uts ED>79 STAT149>0 RES>19 STAT20>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uts ED>162 STAT149>8 RES>36 STAT20>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uts ED>146 STAT149>7 RES>32 STAT20>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uts]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Kira's Guardian (ci2)
 ItemDisplay[UNI ci2 RES>69]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ci2 RES>34]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ci2 RES>29]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ci2 RES>62]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ci2 RES>56]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ci2]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ormus' Robes (uui)
 ItemDisplay[UNI uui STAT329>14 STAT331>14 STAT330>14 STAT27>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uui STAT329>5 STAT331>5 STAT330>5 STAT27>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uui STAT329>4 STAT331>4 STAT330>4 STAT27>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uui STAT329>12 STAT331>12 STAT330>12 STAT27>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uui STAT329>11 STAT331>11 STAT330>11 STAT27>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uui]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Gheed's Fortune (cm3)
-ItemDisplay[UNI cm3 MFIND>39 GFIND>159 STAT87>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI cm3 MFIND>4 GFIND>19 STAT87>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI cm3 MFIND>-1 GFIND>-1 STAT87>4]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[UNI cm3]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Stormlash (7fl)
 ItemDisplay[UNI 7fl ED>299 STAT145>8]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7fl ED>194 STAT145>-3]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7fl ED>179 STAT145>-4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7fl ED>279 STAT145>6]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7fl ED>259 STAT145>4]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7fl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Halaberd's Reign (bae)
 ItemDisplay[UNI bae ED>169 REPLIFE>22 SK149>1 SK155>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI bae ED>116 REPLIFE>8 SK149>-1 SK155>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI bae ED>109 REPLIFE>6 SK149>-1 SK155>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI bae ED>159 REPLIFE>19 SK149>1 SK155>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI bae ED>149 REPLIFE>17 SK149>0 SK155>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI bae]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Spike Thorn (upk)
 ItemDisplay[UNI upk ED>149 STAT36>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI upk ED>96 STAT36>10]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI upk ED>89 STAT36>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI upk ED>139 STAT36>17]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI upk ED>129 STAT36>16]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI upk]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Dracul's Grasp (uvg)
 ItemDisplay[UNI uvg ED>119 STAT60>9 STAT86>9 STAT0>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uvg ED>66 STAT60>4 STAT86>0 STAT0>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uvg ED>59 STAT60>3 STAT86>-1 STAT0>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uvg ED>109 STAT60>8 STAT86>7 STAT0>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uvg ED>99 STAT60>7 STAT86>6 STAT0>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uvg]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Frostwind (7ls)
 ItemDisplay[UNI 7ls ED>229 STAT148>14 SK230>13]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7ls ED>141 STAT148>0 SK230>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7ls ED>129 STAT148>-2 SK230>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7ls ED>212 STAT148>11 SK230>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7ls ED>196 STAT148>9 SK230>8]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7ls]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Eschuta's temper (obc)
 ItemDisplay[UNI obc CLSK1>2 STAT329>19 STAT330>19 STAT1>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI obc CLSK1>-2 STAT329>1 STAT330>1 STAT1>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI obc CLSK1>-2 STAT329>-1 STAT330>-1 STAT1>9]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI obc CLSK1>1 STAT329>16 STAT330>16 STAT1>26]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI obc CLSK1>1 STAT329>12 STAT330>12 STAT1>22]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI obc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Firelizard's Talons (7lw)
 ItemDisplay[UNI 7lw ED>269 TABSK50>2 STAT39>69 SK262>1 SK272>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7lw ED>146 TABSK50>-2 STAT39>16 SK262>-1 SK272>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7lw ED>129 TABSK50>-2 STAT39>9 SK262>-1 SK272>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7lw ED>246 TABSK50>1 STAT39>59 SK262>1 SK272>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7lw ED>223 TABSK50>1 STAT39>49 SK262>0 SK272>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7lw]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Sandstorm Trek (uvb)
 ItemDisplay[UNI uvb ED>169 STAT45>69 STAT0>14 STAT3>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uvb ED>116 STAT45>16 STAT0>5 STAT3>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uvb ED>109 STAT45>9 STAT0>4 STAT3>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uvb ED>159 STAT45>59 STAT0>12 STAT3>12]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uvb ED>149 STAT45>49 STAT0>11 STAT3>11]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uvb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Marrowwalk (umb)
 ItemDisplay[UNI umb ED>199 STAT0>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI umb ED>146 STAT0>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI umb ED>139 STAT0>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI umb ED>189 STAT0>16]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI umb ED>179 STAT0>12]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI umb]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Heaven's Light (7sc)
 ItemDisplay[UNI 7sc ED>299 STAT139>19 STAT194>2 CLSK3>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7sc ED>211 STAT139>10 STAT194>-2 CLSK3>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7sc ED>199 STAT139>9 STAT194>-2 CLSK3>0]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7sc ED>282 STAT139>17 STAT194>1 CLSK3>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7sc ED>266 STAT139>16 STAT194>1 CLSK3>1]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7sc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Arachnid Mesh (ulc)
 ItemDisplay[UNI ulc ED>119]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ulc ED>66]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ulc ED>59]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ulc ED>109]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ulc ED>99]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ulc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Nosferatu's Coil (uvc)
 ItemDisplay[UNI uvc STAT60>6]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uvc STAT60>2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uvc STAT60>2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uvc STAT60>5]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uvc STAT60>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uvc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Verdugo's Hearty Cord (umc)
 ItemDisplay[UNI umc ED>139 STAT3>39 STAT242>119 STAT36>14 REPLIFE>12]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI umc ED>51 STAT3>21 STAT242>84 STAT36>5 REPLIFE>7]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI umc ED>39 STAT3>19 STAT242>79 STAT36>4 REPLIFE>6]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI umc ED>122 STAT3>36 STAT242>112 STAT36>12 REPLIFE>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI umc ED>106 STAT3>32 STAT242>106 STAT36>11 REPLIFE>10]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI umc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Giantskull (uh9)
 ItemDisplay[UNI uh9 STAT0>34 STAT194>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uh9 STAT0>16 STAT194>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uh9 STAT0>14 STAT194>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uh9 STAT0>31 STAT194>1]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uh9 STAT0>27 STAT194>0]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uh9]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ironward (7ws)
 ItemDisplay[UNI 7ws ED>289 STAT119>199 STAT34>6 TABSK24>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7ws ED>201 STAT119>111 STAT34>1 TABSK24>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7ws ED>189 STAT119>99 STAT34>0 TABSK24>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7ws ED>272 STAT119>182 STAT34>5 TABSK24>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7ws ED>256 STAT119>166 STAT34>4 TABSK24>2]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7ws]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Annihilus (cm1)
-ItemDisplay[UNI cm1 STAT4>19 RES>19 STAT85>9]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI cm1 STAT4>1 RES>1 STAT85>0]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI cm1 STAT4>-1 RES>-1 STAT85>-1]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[UNI cm1]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Arioc's Needle (7sr)
 ItemDisplay[UNI 7sr ED>229 ALLSK>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7sr ED>141 ALLSK>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7sr ED>129 ALLSK>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7sr ED>212 ALLSK>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7sr ED>196 ALLSK>2]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7sr]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Cranebeak (7mp)
 ItemDisplay[UNI 7mp ED>299 MFIND>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7mp ED>194 MFIND>-4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7mp ED>179 MFIND>-11]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7mp ED>279 MFIND>39]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7mp ED>259 MFIND>29]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7mp]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Nord's Tenderizer (7cl)
 ItemDisplay[UNI 7cl ED>329 STAT134>3 STAT119>179 STAT148>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7cl ED>224 STAT134>-1 STAT119>126 STAT148>-4]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7cl ED>209 STAT134>-1 STAT119>119 STAT148>-6]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7cl ED>309 STAT134>2 STAT119>169 STAT148>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7cl ED>289 STAT134>2 STAT119>159 STAT148>7]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7cl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Earthshifter (7gm)
 ItemDisplay[UNI 7gm ED>299]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gm ED>211]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gm ED>199]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gm ED>282]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gm ED>266]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gm]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Wraithflight (7gl)
 ItemDisplay[UNI 7gl ED>189 STAT60>12]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7gl ED>119 STAT60>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7gl ED>109 STAT60>4]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7gl ED>176 STAT60>11]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7gl ED>163 STAT60>9]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7gl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Bonehew (7o7)
 ItemDisplay[UNI 7o7 ED>319]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7o7 ED>231]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7o7 ED>219]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7o7 ED>302]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7o7 ED>286]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7o7]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Ondal's Wisdom (6cs)
 ItemDisplay[UNI 6cs STAT1>49 ALLSK>3 STAT35>7]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 6cs STAT1>31 ALLSK>-1 STAT35>2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 6cs STAT1>29 ALLSK>-1 STAT35>1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 6cs STAT1>46 ALLSK>2 STAT35>6]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 6cs STAT1>42 ALLSK>2 STAT35>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 6cs]: %NAME% %DARK_GREEN%1%WHITE%
 
 // The Reedeemer (7sc)
 ItemDisplay[UNI 7sc ED>299 STAT121>249 SK124>3 SK101>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI 7sc ED>211 STAT121>161 SK124>-1 SK101>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI 7sc ED>199 STAT121>149 SK124>-1 SK101>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI 7sc ED>282 STAT121>232 SK124>2 SK101>2]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI 7sc ED>266 STAT121>216 SK124>2 SK101>2]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI 7sc]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Headhunter's Glory (ush)
 ItemDisplay[UNI ush STAT32>349 STAT45>39 STAT194>2 STAT39>29 STAT86>6]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI ush STAT32>261 STAT45>21 STAT194>-2 STAT39>11 STAT86>2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI ush STAT32>249 STAT45>19 STAT194>-2 STAT39>9 STAT86>2]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI ush STAT32>332 STAT45>36 STAT194>1 STAT39>26 STAT86>5]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI ush STAT32>316 STAT45>32 STAT194>1 STAT39>22 STAT86>5]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI ush]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Steelrend (uhg)
 ItemDisplay[UNI uhg STAT0>19 ED>59]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI uhg STAT0>10 ED>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI uhg STAT0>9 ED>-1]: %NAME% %DARK_GREEN%2%WHITE%
+ItemDisplay[UNI uhg STAT0>17 ED>49]: %NAME% %DARK_GREEN%3%WHITE%
+ItemDisplay[UNI uhg STAT0>16 ED>39]: %NAME% %DARK_GREEN%2%WHITE%
 ItemDisplay[UNI uhg]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Hellfire Torch (cm2)
-ItemDisplay[UNI cm2 (CLSK0>5 OR CLSK1>5 OR CLSK2>5 OR CLSK3>5 OR CLSK4>5 OR CLSK5>5 OR CLSK6>5)STAT4>19 RES>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[UNI cm2 (CLSK0>5 OR CLSK1>5 OR CLSK2>5 OR CLSK3>5 OR CLSK4>5 OR CLSK5>5 OR CLSK6>5)STAT4>1 RES>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[UNI cm2 (CLSK0>5 OR CLSK1>5 OR CLSK2>5 OR CLSK3>5 OR CLSK4>5 OR CLSK5>5 OR CLSK6>5)STAT4>-1 RES>-1]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[UNI c)]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Set Items
 // -----------
-
-// Civerb's Cudgel (gsc)
-ItemDisplay[SET gsc MAXDMG>22]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET gsc MAXDMG>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET gsc MAXDMG>10]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET gsc]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Arctic Furs (qui)
-ItemDisplay[SET qui ED>324]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET qui ED>236]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET qui ED>224]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET qui]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Natalya's Totem (xh9)
-ItemDisplay[SET xh9 STAT2>29 STAT0>19 RES>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET xh9 STAT2>11 STAT0>1 RES>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET xh9 STAT2>9 STAT0>-1 RES>-1]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET xh9]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Natalya's Shadow (ucl)
-ItemDisplay[SET ucl STAT194>2]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET ucl STAT194>-2]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET ucl STAT194>-2]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET ucl]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Natalya's Soul (xmb)
-ItemDisplay[SET xmb STAT43>24 STAT41>24]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET xmb STAT43>6 STAT41>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET xmb STAT43>4 STAT41>4]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET xmb]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Aldur's Stony Gaze (dr8)
-ItemDisplay[SET dr8 STAT43>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET dr8 STAT43>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET dr8 STAT43>29]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET dr8]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Aldur's Deception (uul)
-ItemDisplay[SET uul STAT41>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET uul STAT41>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET uul STAT41>29]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET uul]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Aldur's Gauntlet (9mt)
-ItemDisplay[SET 9mt STAT194>4]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET 9mt STAT194>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET 9mt STAT194>-2]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET 9mt]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Aldur's Advance (xtb)
-ItemDisplay[SET xtb STAT39>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET xtb STAT39>31]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET xtb STAT39>29]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET xtb]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Immortal King's Will (ba5)
-ItemDisplay[SET ba5 MFIND>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET ba5 MFIND>13]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET ba5 MFIND>9]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET ba5]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Immortal King's Stone Crusher (7m7)
-ItemDisplay[SET 7m7 STAT136>39]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET 7m7 STAT136>30]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET 7m7 STAT136>29]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET 7m7]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Tal Rasha's Fire-Spun Cloth (zmb)
-ItemDisplay[SET zmb MFIND>14]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET zmb MFIND>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET zmb MFIND>4]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET zmb]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Tal Rasha's Lidless Eye (oba)
-ItemDisplay[SET oba SK61>1 SK63>1 SK65>1]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET oba SK61>-1 SK63>-1 SK65>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET oba SK61>-1 SK63>-1 SK65>-1]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET oba]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Griswold's Valor (urn)
-ItemDisplay[SET urn ED>74 MFIND>29]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET urn ED>30 MFIND>11]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET urn ED>24 MFIND>9]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET urn]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Griswolds's Redemption (7ws)
-ItemDisplay[SET 7ws ED>239 STAT194>3]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET 7ws ED>169 STAT194>1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET 7ws ED>159 STAT194>1]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET 7ws]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Trang-Oul's Wing (ne9)
-ItemDisplay[SET ne9 STAT39>44]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET ne9 STAT39>32]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET ne9 STAT39>30]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET ne9]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Trang-Oul's Girth (utc)
-ItemDisplay[SET utc MANA>49]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET utc MANA>5]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET utc MANA>-1]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET utc]: %NAME% %DARK_GREEN%1%WHITE%
-
-// M'avina's Embrace (uld)
-ItemDisplay[SET uld STAT35>11]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET uld STAT35>-1]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET uld STAT35>-3]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET uld]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Rite of Passage (xlb)
-ItemDisplay[SET xlb STAT242>24]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET xlb STAT242>6]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET xlb STAT242>4]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET xlb]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Sazabi's Ghost Liberator (upl)
-ItemDisplay[SET upl STAT7>74]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET upl STAT7>30]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET upl STAT7>24]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET upl]: %NAME% %DARK_GREEN%1%WHITE%
-
-// Sazabi's Mental Sheath (xhl)
-ItemDisplay[SET xhl STAT39>19 STAT41>19]: %NAME% %DARK_GREEN%4%WHITE%
-ItemDisplay[SET xhl STAT39>10 STAT41>10]: %NAME% %DARK_GREEN%3%WHITE%
-ItemDisplay[SET xhl STAT39>9 STAT41>9]: %NAME% %DARK_GREEN%2%WHITE%
-ItemDisplay[SET xhl]: %NAME% %DARK_GREEN%1%WHITE%
 
 // Runeword Items
 // -----------

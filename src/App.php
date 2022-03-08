@@ -46,8 +46,20 @@ class App
 		// init
 		$lines = [];
 
+		// build working arrays
+		$itemtypes = csv(path('storage/items.csv'), false, "|");
+		$item_types2names = [];
+		$item_types2class = [];
+		$item_names2types = [];
+		foreach ($itemtypes as $item)
+		{
+			$item_types2names[ex($item, 1)] = ex($item, 0);
+			$item_types2class[ex($item, 1)] = ex($item, 2);
+			$item_names2types[ex($item, 0)] = ex($item, 1);
+		}
+
 		// load data
-		$properties = csv(path('storage/properties2.csv'), true, ",");
+		$properties = csv(path('storage/properties.csv'), true, ",");
 
 		// build properties map (to convert game codes to loot filter codes)
 		$map = [];
@@ -92,10 +104,16 @@ class App
 					break;
 			}
 
-			$pass = $mode == 'uniques' ? ex($item, 'enabled') : true;
+			$pass = true;
+			if (!ex($item, 'enabled')) $pass = false;
+			if (!ex($item_types2names, $code))
+			{
+				$pass = false;
+				terminal('No item "'.$name.' ('.$code.')" in the game [mode='.$mode.'].');
+			}
 
-            // if item is enabled in the game...
-			if ($code and !in_array($code, ['jew', 'rin', 'amu', 'uar']) and $pass)
+            // if item is enabled in the game and not an item in the ignore list...
+			if ($code and !in_array($code, ['jew', 'rin', 'amu', 'uar', 'cm1', 'cm2', 'cm3']) and $pass)
 			{
 				// init
 				$conditions = [];
@@ -154,7 +172,7 @@ class App
 					}
 				}
 
-				#if ($name == 'Maelstromwrath') xx($item);
+				#if ($name == 'Cliffkiller') xx($item);
 
 				// we are going to print 4 versions of the item so we have
 				// level A, level B, level C compared to perfect.
@@ -174,7 +192,7 @@ class App
 						{
 							$min = ex($condition, 'min');
 							$max = ex($condition, 'max');
-							$sub = ($max-$min) * .25;
+							$sub = ($max-$min) * .33;
 
 							// look for properties that have OR in them...
 							$property = ex($condition, 'prop');
@@ -194,7 +212,7 @@ class App
 											$string2 .= trim($or).'>'.($max-1).' OR ';
 											break;
 										default:
-											$string2 .= trim($or).'>'.(ex($condition, 'max')-1).' OR ';
+											$string2 .= trim($or).'>'.($max-round($sub*(4-$tier))-1).' OR ';
 											break;
 									}
 								}
@@ -212,7 +230,7 @@ class App
 										$string2 .= trim($property).'>'.($max-1).' ';
 										break;
 									default:
-										$string2 .= trim($property).'>'.($max-round($sub*(10-$tier))-1).' ';
+										$string2 .= trim($property).'>'.($max-round($sub*(4-$tier))-1).' ';
 										break;
 								}
 							}

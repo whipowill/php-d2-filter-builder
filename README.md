@@ -32,14 +32,14 @@ Open the file [output.txt](https://raw.githubusercontent.com/whipowill/php-d2-lf
 
 - [Sockets.csv](https://diablo2.diablowiki.net/Sockets) - A spreadsheet of possible sockets from Larzuk based on item and item level.
 - [Items.csv](https://raw.githubusercontent.com/dkuwahara/OmegaBot/master/data/item_data.txt) - A spreadsheet of all the items in the game w/ their item code.
-- Properties.csv - A spreadsheet I painstakingly compiled translating game stat codes to loot filter stat codes.
+- [Properties.csv](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/storage/properties.csv) - A spreadsheet I painstakingly compiled translating game stat codes to loot filter stat codes.
 
 ## Issues
 
 - ``STAT31`` doesn't seem to work properly in the loot filter, so items w/ ``+N Defense`` aren't going to register against perfection.
-- The loot filter item scoring is based on there only being one unique or set item per item type, so item types w/ more than one unique version won't score (Ancient Armor).
-- The loot filter doesn't allow me to build a rule based on the runeword, so I can't adding item scoring to runewords.
-- I haven't completed translating the game codes for some of the +skill items, so that may not all be scored correctly yet.
+- The loot filter item scoring is based on there only being one unique or set item per item type, so item types w/ more than one unique version won't score (rings, ammys, Ancient Armor).
+- The loot filter doesn't allow me to build a rule based on the runeword, so I can't add item scoring to runewords.
+- I haven't completed translating the game codes for some of the +skill items, so those may not score correctly yet.
 
 ## References
 
