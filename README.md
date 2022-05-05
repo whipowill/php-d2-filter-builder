@@ -1,50 +1,52 @@
 # Loot Filter Builder
 
-A standalone PHP app that uses game data files to build complex loot filter rules for Diablo II.  This is pretty nerdy stuff that only the most dedicated D2 players will care about or find interesting.
+A standalone PHP app that uses data files to build complex loot filter rules for Diablo II.  This is pretty nerdy stuff that only the most dedicated D2 players will care about or find interesting.
 
-- Highlights the absolute ideal base items for runewords.
-- Tells you if you should Larzuk socket an item or cube socket an item:
-	- If the item is showing runewords in the description, you should Larzuk socket it.
-	- If the item has a socket recipe in the description, you should cube socket it.
-- Adds an item description w/ what runewords you can make w/ a socketed item.
-- Adds an item score to unique and set items as compared to perfect:
-	- A score of ``4`` is perfect.
-	- A score of ``3`` is almost perfect.
-	- A score of ``2`` is mid range.
-	- A score of ``1`` is low range.
-	- Scoring is limited to the lowest common denominator, so even if the item is perfect in one aspect but terrible in another, the score will be low.
+## What This Does
+
+Maphack in Diablo II comes with a loot filter w/ which you can assign "tiers" to items, and it will notify you when those items drop.  The guys over at SlashDiablo, who built maphack, include their own loot filter config that has some errors and isn't very easy to customize to your own tastes.  The loot filter rules can quickly get confusing bc every entry effects another entry, and it gets overwhelming.
+
+I wrote this program to tame the loot filter rules by building perfect, audited, error checked, rulesets.  All you have to do is edit the spreadsheets in ``storage/`` to match your preferences for what item types you value.  These lists include all the set, unique, and runeword items in the game, all you have to do is add what tier you want each of these items to be, and what extra stats those items need to have to qualify.
+
+- [config.php](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/config/config.php)
+- [sets.csv](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/storage/sets.csv)
+- [uniques.csv](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/storage/uniques.csv)
+- [runewords.csv](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/storage/runewords.csv)
+
+For each item in the game, you can define a ``tier`` for the item w/out special stats, and/or a ``tier_with_params`` for the item if it has the special stats.  So, for example, I have a normal Reapers Toll as a tier 4 item, but an ethereal Reapers Toll is a tier 2 item.  My settings for unique and set items are almost identical to the SlashDiablo settings, but the runewords is where things get more complicated.
+
+When setting a tier for a runeword, you're not really assigning it to the runeword, you're assigning it to the base item w/ the right number of sockets.  Because so many runewords use the same items w/ the same sockets, the tier settings get messy really fast.  This program takes all the runeword tiers you define and it breaks them down by item.  It determines the ideal tier ranking for the base item and it strips out all the duplicates.
+
+In the end, the output of this program is perfect loot filter rules, with deduped tier notifications for all the items you care about.  It adds id/noid, eth/noeth, and socket/nosocket variations as needed.  It adds recipe descriptions to all the runeword base items you defined, and it tells you if you should Larzuk socket or cube socket the item to get the number of sockets you want.
 
 See [output.txt](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/output.txt) for the output of this program as run w/ my preferences.
 
-## Usage
+## How To Use
 
-Edit [runewords.php](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/config/runewords.php) to adjust your preferred item types for each runeword, then run the script from terminal:
+Download the app:
 
 ```bash
-$ git clone git@github.com:whipowill/php-d2-lfb.git
-$ cd php-d2-lfb
+$ git clone git@github.com:whipowill/php-d2-filter-builder.git
+$ cd php-d2-filter-builder
+```
+
+Make any desired changes to the editable files, and run the app:
+
+```bash
 $ php run
 ```
 
-Open the file [output.txt](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/output.txt) and copy the content into your ``BH.cfg`` loot filter config.
-
-## Sources
-
-- [Sockets.csv](https://diablo2.diablowiki.net/Sockets) - A spreadsheet of possible sockets from Larzuk based on item and item level.
-- [Items.csv](https://raw.githubusercontent.com/dkuwahara/OmegaBot/master/data/item_data.txt) - A spreadsheet of all the items in the game w/ their item code.
-- [Properties.csv](https://raw.githubusercontent.com/whipowill/php-d2-lfb/master/storage/properties.csv) - A spreadsheet I painstakingly compiled translating game stat codes to loot filter stat codes.
+Open the file ``output.txt`` and copy the contents into the bottom of your ``BH.cfg`` loot filter config.
 
 ## Issues
 
-- ``STAT31`` doesn't seem to work properly in the loot filter, so items w/ ``+N Defense`` aren't going to register against perfection.
-- The loot filter item scoring is based on there only being one unique or set item per item type, so item types w/ more than one unique version won't score (rings, ammys, Ancient Armor).
-- The loot filter doesn't allow me to build a rule based on the runeword, so I can't add item scoring to runewords.
-- I haven't completed translating the game codes for some of the +skill items, so those may not score correctly yet.
+The only "issue" is runeword base items w/ no sockets.  An unsocketed item will be marked as the highest tier possible, based on your settings, and it won't show the right tier for the item until you socket it.  This is because the eth/noeth and socket/nosocket variations of items gets too complicated to manage in the loot filter rules, so it doesn't even try.  So just know that unsocketed items will always show the most charitable and optimistic tier until you socket it.
 
 ## References
 
 - [Luigi's Reddit Post](https://www.reddit.com/user/luigi13579/comments/phxd1g/diablo_ii_base_guide/)
 - [ChaosNecromance's D2net Post](https://www.diabloii.net/forums/threads/iso-base-item-guide-for-runeword-creation.403767/)
 - [Maxroll's Recommendations](https://d2.maxroll.gg/items/runewords)
+- [SlashDiablo's Loot Filter Tier Selections](https://raw.githubusercontent.com/youbetterdont/bhconfig/master/BH.cfg)
 - [SlashDiablo's Loot Filter Conditions](https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display#other-conditions)
 - [Path of Diablo's Loot Filter Cheatsheet](https://wiki.projectdiablo2.com/wiki/Item_Filtering)

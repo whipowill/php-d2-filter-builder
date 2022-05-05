@@ -2,37 +2,47 @@
 
 class App
 {
+	protected static $config,
+		$item_codes2names,
+		$item_codes2class,
+		$item_names2types,
+		$item_types_to_filter_types,
+		$item_types_to_socket_types,
+		$larzuk_item_types;
+
+
 	public static function run()
 	{
+		// load config
+		static::$config = require(path('config/config.php'));
+
+		// build working arrays
+		static::build_working_arrays();
+
+		// compile
+		$uniques = static::compile_uniques();
+		$runewords = static::compile_runewords();
+
 		// init
 		$lines = [];
 
-		// print unique codes
+		$lines[] = '//=================================================';
+		$lines[] = '// TIERS';
+		$lines[] = '//=================================================';
 		$lines[] = '';
-		$lines[] = '// Unique Items';
-		$lines[] = '// -----------';
-		$items = csv(path('storage/data/UniqueItems.txt'), true, "\t");
-		$lines = array_merge($lines, static::build_items('unique', $items));
+		$lines[] = '// These filter codes are computer generated:';
+		$lines[] = '// https://github.com/whipowill/php-d2-filter-builder';
+		$lines[] = '';
+		$lines = array_merge($lines, static::build_tier_notifications($uniques, $runewords));
 
-		// print set codes
+		$lines[] = '//=================================================';
+		$lines[] = '// RUNEWORDS';
+		$lines[] = '//=================================================';
 		$lines[] = '';
-		$lines[] = '// Set Items';
-		$lines[] = '// -----------';
-		$items = csv(path('storage/data/SetItems.txt'), true, "\t");
-		$lines = array_merge($lines, static::build_items('set', $items));
-
-		// print runeword codes
+		$lines[] = '// These filter codes are computer generated:';
+		$lines[] = '// https://github.com/whipowill/php-d2-filter-builder';
 		$lines[] = '';
-		$lines[] = '// Runeword Items';
-		$lines[] = '// -----------';
-		$items = csv(path('storage/data/Runes.txt'), true, "\t");
-		#$lines = array_merge($lines, static::build_items('runeword', $items)); // cannot score runewords w/ current loot filter limitations
-
-		// print base codes
-		$lines[] = '';
-		$lines[] = '// Base Items';
-		$lines[] = '// -----------';
-		$lines = array_merge($lines, static::build_base_items());
+		$lines = array_merge($lines, static::build_runeword_recommendations($runewords));
 
 		// save to file
 		tofile($lines);
@@ -41,210 +51,191 @@ class App
 		terminal('File "output.txt" saved.');
 	}
 
-	protected static function build_items($mode, $items)
+	protected static function build_tier_notifications($uniques, $runewords)
 	{
+		// merge the arrays together by item type
+		$tiers = static::merge_uniques_and_runewords($uniques, $runewords);
+
+		// hash checker to find duplicates
+		$hashes = [];
+
 		// init
 		$lines = [];
-
-		// build working arrays
-		$itemtypes = csv(path('storage/items.csv'), false, "|");
-		$item_types2names = [];
-		$item_types2class = [];
-		$item_names2types = [];
-		foreach ($itemtypes as $item)
+		foreach ($tiers as $payload)
 		{
-			$item_types2names[ex($item, 1)] = ex($item, 0);
-			$item_types2class[ex($item, 1)] = ex($item, 2);
-			$item_names2types[ex($item, 0)] = ex($item, 1);
-		}
+			// load the items from the array
+			$item_name = ex($payload, 'name');
+			$item_code = ex($payload, 'code');
+			$uniques = ex($payload, 'uniques', []);
+			$runewords = ex($payload, 'runewords', []);
 
-		// load data
-		$properties = csv(path('storage/properties.csv'), true, ",");
-
-		// build properties map (to convert game codes to loot filter codes)
-		$map = [];
-		foreach ($properties as $p)
-		{
-			$string = ex($p, 'lootfilter_code');
-			if ($string)
+			if (count($uniques) or count($runewords))
 			{
-				$map[ex($p, 'game_code')] = $string;
-			}
-		}
+				$lines[] = '// '.$item_name.' ('.$item_code.')';
 
-		// set fields to look for...
-		$fields = [];
-		switch ($mode)
-		{
-			default:
-				$fields = [
-					'prop' => 'prop',
-					'extra' => 'par',
-					'min' => 'min',
-					'max' => 'max',
-				];
-				break;
-		}
-
-		// foreach item...
-		foreach ($items as $item)
-		{
-			// prep
-			switch ($mode)
-			{
-				case 'unique':
-					$name = ex($item, 'index');
-					$code = ex($item, 'code');
-					$string = 'UNI '.$code.' ';
-					break;
-				case 'set':
-					$name = ex($item, 'index');
-					$code = ex($item, 'item');
-					$string = 'SET '.$code.' ';
-					break;
-			}
-
-			$pass = true;
-			if (!ex($item, 'enabled')) $pass = false;
-			if (!ex($item_types2names, $code))
-			{
-				$pass = false;
-				terminal('No item "'.$name.' ('.$code.')" in the game [mode='.$mode.'].');
-			}
-
-            // if item is enabled in the game and not an item in the ignore list...
-			if ($code and !in_array($code, ['jew', 'rin', 'amu', 'uar', 'cm1', 'cm2', 'cm3']) and $pass)
-			{
-				// init
-				$conditions = [];
-
-				// foreach property...
-				for ($i=1; $i<=9; $i++)
+				// if uniques...
+				if (count($uniques))
 				{
-					// if property has a range...
-					if (ex($item, $fields['min'].$i) != ex($item, $fields['max'].$i))
+					// foreach unique...
+					foreach ($uniques as $item)
 					{
-						// if it's a proptery we can actually check...
-						$property = ex($item, $fields['prop'].$i);
-						if ($property == 'oskill') $property = 'skill';
-						if (in_array($property, ['skill', 'skilltab', 'oskill'])) $property = $property.'_'.slug(ex($item, $fields['extra'].$i));
+						$tier = ex($item, 'tier');
+						$tier_with_params = ex($item, 'tier_with_params');
 
-						$ignore = [
-							'*charged',
-							'charged',
-							'*hit-skill',
-							'hit-skill',
-							'*gethit-skill',
-							'gethit-skill',
-							'death-skill',
-							'kill-skill',
-							'att-skill',
-							'dmg-pois',
-							'dmg-fire',
-							'dmg-cold',
-							'dmg-ltng',
-							'dmg-mag',
-							'skill-rand', // random skill assigned
-							'bloody', // attacker takes damage?
-							###
-							'ac', // +defense not working
-							'dur', // +durability not actually in the game?
-							'dmg', 'dmg-norm', // +damage not actually in the game?
-						];
-						if (!in_array($property, $ignore))
+						// if wanting tier notifications...
+						if ($tier or $tier_with_params)
 						{
-							$translated = ex($map, $property);
-							if ($translated)
+							$name = ex($item, 'name');
+							$type = ex($item, 'type');
+							$params = static::filter_params($type, $item_code, ex($item, 'params'));
+							$note = ex($item, 'note');
+
+							// print lines
+							$l = static::print_tier_lines($item_name, $item_code, $name, $tier, $tier_with_params, $type, $params);
+
+							// make hash
+							$hash = md5($type.$item_code.$params);
+
+							// if not a dupe...
+							if (!isset($hashes[$hash]))
 							{
-								$conditions[] = [
-									'prop' => $translated,
-									'extra' => ex($item, $fields['extra'].$i),
-									'min' => ex($item, $fields['min'].$i),
-									'max' => ex($item, $fields['max'].$i),
-								];
+								$lines = array_merge($lines, $l);
 							}
+
+							// if it is a dupe...
 							else
 							{
-								// report
-								terminal('Unable to convert proprty "'.$property.' ['.ex($item, $fields['extra'].$i).']['.ex($item, $fields['min'].$i).'/'.ex($item, $fields['max'].$i).']" to loot filter conditional on item "'.$name.' ('.$code.')".');
+								static::print_tier_error($type, $item_code, $item_name, $l);
 							}
+
+							// add to dupe check
+							$hashes[$hash] = 1;
 						}
 					}
 				}
 
-				#if ($name == 'Cliffkiller') xx($item);
-
-				// we are going to print 4 versions of the item so we have
-				// level A, level B, level C compared to perfect.
-
-				// if scorable conditions...
-				if (count($conditions))
+				// if runewords...
+				if (count($runewords))
 				{
-					$lines[] = '';
-					$lines[] = '// '.$name.' ('.$code.')';
+					// The runewords array comes as a list of socket counts as the
+					// key with lots of runewords for each.  We will sort through each
+					// socket => runewords list as build a key to rename all the items
+					// and average out the tier values.
 
-					foreach ([4, 3, 2, 1] as $tier)
+					$key = [];
+					$lowest_tier = null;
+					$lowest_tier_with_params = null;
+
+					// foreach socket count...
+					foreach ($runewords as $sockets => $items)
 					{
-						// init
-						$string2 = $string;
+						// organize where the runewords w/ params are first
+						$items = array_orderby($items, ['params' => SORT_DESC]);
 
-						foreach ($conditions as $condition)
+						// foreach item in that traunch...
+						foreach ($items as $item)
 						{
-							$min = ex($condition, 'min');
-							$max = ex($condition, 'max');
-							$sub = ($max-$min) * .33;
-
-							// look for properties that have OR in them...
-							$property = ex($condition, 'prop');
-							$ors = explode(' OR ', $property);
-							if (count($ors) > 1)
+							// if this item is even used...
+							if (ex($item, 'tier') or ex($item, 'tier_with_params'))
 							{
-								$string2 .= '(';
-								foreach ($ors as $or)
+								#$hash = md5('sockets='.$sockets.'params='.ex($item, 'params'));
+								$hash = md5('sockets='.$sockets);
+
+								if (!isset($key[$sockets][$hash]))
 								{
-									#$string2 .= trim($or).'>'.(ex($condition, 'max')-1).' OR ';
-									switch ($tier)
+									$key[$sockets][$hash] = [
+										'name' => $sockets.'os / '.ex($item, 'name'),
+										'tier' => ex($item, 'tier'),
+										'tier_with_params' => ex($item, 'tier_with_params'),
+										'params' => ex($item, 'params'),
+									];
+								}
+								else
+								{
+									$key[$sockets][$hash]['name'] .= ', '.ex($item, 'name');
+									$key[$sockets][$hash]['tier'] = (ex($item, 'tier') and (!$key[$sockets][$hash]['tier'] or ex($item, 'tier') < $key[$sockets][$hash]['tier'])) ? ex($item, 'tier') : $key[$sockets][$hash]['tier'];
+									$key[$sockets][$hash]['tier_with_params'] = (ex($item, 'tier_with_params') and (!$key[$sockets][$hash]['tier_with_params'] or ex($item, 'tier_with_params') < $key[$sockets][$hash]['tier_with_params'])) ? ex($item, 'tier_with_params') : $key[$sockets][$hash]['tier_with_params'];
+
+									if (ex($item, 'params'))
 									{
-										case 1:
-											// no math necessary
-											break;
-										case 4:
-											$string2 .= trim($or).'>'.($max-1).' OR ';
-											break;
-										default:
-											$string2 .= trim($or).'>'.($max-round($sub*(4-$tier))-1).' OR ';
-											break;
+										if (!$key[$sockets][$hash]['params'])
+										{
+											$key[$sockets][$hash]['params'] = ex($item, 'params');
+										}
+										else
+										{
+											if (ex($item, 'params') == $key[$sockets][$hash]['params'])
+											{
+												// do nothing
+											}
+											else
+											{
+												xx(ex($item, 'params'));
+											}
+										}
 									}
 								}
-								$string2 = substr($string2, 0, -4);
-								$string2 .= ')';
-							}
-							else
-							{
-								switch ($tier)
-								{
-									case 1:
-										// no math necessary
-										break;
-									case 4:
-										$string2 .= trim($property).'>'.($max-1).' ';
-										break;
-									default:
-										$string2 .= trim($property).'>'.($max-round($sub*(4-$tier))-1).' ';
-										break;
-								}
+
+								$lowest_tier = (ex($item, 'tier') and (!$lowest_tier or ex($item, 'tier') < $lowest_tier)) ? ex($item, 'tier') : $lowest_tier;
+								$lowest_tier_with_params = (ex($item, 'tier_with_params') and (!$lowest_tier_with_params or ex($item, 'tier_with_params') < $lowest_tier_with_params)) ? ex($item, 'tier_with_params') : $lowest_tier_with_params;
 							}
 						}
+					}
 
-						// print
-						$lines[] = 'ItemDisplay['.trim($string2).']: %NAME% %DARK_GREEN%'.$tier.'%WHITE%';
+					// add to key a nosock entry
+					$key[0][1] = [
+						'name' => '0os',
+						'tier' => !$lowest_tier_with_params ? $lowest_tier : null,
+						'tier_with_params' => $lowest_tier_with_params,
+						'params' => null,
+					];
+
+					#if ($item_code == '7wa') xx($key);
+
+					// foreach socket count...
+					foreach ($key as $sockets => $items)
+					{
+						// foreach item...
+						foreach ($items as $item)
+						{
+							$tier = ex($item, 'tier');
+							$tier_with_params = ex($item, 'tier_with_params');
+
+							// if wanting tier notifications...
+							if ($tier or $tier_with_params)
+							{
+								$name = ex($item, 'name');
+								$type = 'NMAG';
+								$params = static::filter_params($type, $item_code, ex($item, 'params'));
+								$note = ex($item, 'note');
+
+								// make hash
+								$hash = md5($type.$item_code.$params.$sockets);
+
+								// build line
+								$l = static::print_tier_lines($item_name, $item_code, $name, $tier, $tier_with_params, $type, $params, $sockets);
+
+								// if not a dupe...
+								if (!isset($hashes[$hash]))
+								{
+									$lines = array_merge($lines, $l);
+								}
+
+								// if it is a dupe...
+								else
+								{
+									static::print_tier_error($type, $item_code, $item_name, $l);
+								}
+
+								// add to dupe check
+								$hashes[$hash] = 1;
+							}
+						}
 					}
 				}
-				else
-				{
-					// print item once marked perfect
-					#$lines[] = 'ItemDisplay['.$string.']: %NAME% %DARK_GREEN%%WHITE%';
-				}
+
+				// blank line
+				$lines[] = '';
 			}
 		}
 
@@ -252,87 +243,103 @@ class App
 		return $lines;
 	}
 
-	protected static function build_base_items()
+	protected static function print_tier_error($type, $item_code, $item_name, $lines)
 	{
-		// load resources
-		$conversions = require(path('config/conversions.php'));
-		$runewords = require(path('config/runewords.php'));
-		$types = require(path('config/itemtypes.php'));
-
-		// build working arrays
-		$items = csv(path('storage/items.csv'), false, "|");
-		$item_types2names = [];
-		$item_types2class = [];
-		$item_names2types = [];
-		foreach ($items as $item)
+		if ($type != 'NMAG' and !in_array($item_code, ['rin', 'amu']))
 		{
-			$item_types2names[ex($item, 1)] = ex($item, 0);
-			$item_types2class[ex($item, 1)] = ex($item, 2);
-			$item_names2types[ex($item, 0)] = ex($item, 1);
+			// print to terminal
+			terminal('------- REMOVED AS DUPE -------');
+			terminal($item_name.' ('.$item_code.')');
+			x($lines);
 		}
+	}
 
-		// build array of larzuk levels
-		$larzuk_item_types = csv(path('storage/sockets.csv'));
-
-		// sort runewords
-		$runewords = array_orderby($runewords, ['level' => SORT_DESC, 'title' => SORT_ASC]);
-
-		// init
-		$final = [];
-
-		// foreach...
-		foreach ($runewords as $runeword)
-		{
-			// info about this runeword
-			$sockets = sizeof(ex($runeword, 'runes', []));
-
-			// foreach preferred base item
-			$item_types = [];
-			foreach (ex($runeword, 'prefer', []) as $item_type)
-			{
-				$alt_item_types = ex($conversions, $item_type, []);
-				if (sizeof($alt_item_types))
-				{
-					foreach ($alt_item_types as $alt_item_type)
-					{
-						$item_types[] = $alt_item_type;
-					}
-				}
-				else
-				{
-					$item_types[] = $item_type;
-				}
-			}
-
-			// foreach item type...
-			foreach ($item_types as $item_type)
-			{
-				// save
-				$final[$item_type][$sockets][] = $runeword;
-			}
-		}
-
+	protected static function print_tier_lines($item_name, $item_code, $name, $tier, $tier_with_params, $type, $params, $sockets = null)
+	{
 		// init
 		$lines = [];
 
-		// foreach final...
-		foreach ($final as $item_type => $sockets)
+		// detect errors
+		if ($tier_with_params and !$params)
 		{
-			// get info
-			$info = static::get_base_info($item_type, $item_types2names, $larzuk_item_types);
+			#terminal('You have no params for item "'.$name.' ('.$item_code.')".');
+			#die();
+		}
+		if (!$tier_with_params and $params)
+		{
+			#terminal('You have no tier_with_params item "'.$name.' ('.$item_code.')".');
+			#die();
+		}
+
+		$lines[] = '// - '.$name;
+
+		// if tier_with_params...
+		if ($tier_with_params)
+		{
+			$lines[] = 'ItemDisplay['
+				.$type.' '
+				.($type == 'NMAG' ? '!INF ' : '')
+				.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
+				.$item_code
+				.($sockets !== null ? ' SOCK='.$sockets : '')
+				.($params ? ' '.$params : '')
+				.']: '.static::get_tier_color($tier_with_params).'T'.$tier_with_params.'%MAP% %NAME%%TIER-'.$tier_with_params.'%';
+
+			// if type is not base item and not a ring or ammy...
+			if ($type != 'NMAG' and !in_array($item_code, ['rin', 'amu']))
+			{
+				// add version that has no params and is unID
+				$lines[] = 'ItemDisplay['
+					.$type.' '
+					.($type == 'NMAG' ? '!INF ' : '')
+					.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
+					.$item_code
+					.' !ID'
+					//.($sockets ? ' SOCK='.$sockets : '')
+					//.($params ? ' '.$params : '')
+					.']: '.static::get_tier_color($tier_with_params).'T'.$tier_with_params.'%MAP% %NAME%%TIER-'.$tier_with_params.'%';
+			}
+		}
+
+		// if tier...
+		if ($tier)
+		{
+			$lines[] = 'ItemDisplay['
+				.$type.' '
+				.($type == 'NMAG' ? '!INF ' : '')
+				.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
+				.$item_code
+				.($sockets !== null ? ' SOCK='.$sockets : '')
+				//.($params ? ' '.$params : '')
+				.']: '.static::get_tier_color($tier).'T'.$tier.'%MAP% %NAME%%TIER-'.$tier.'%';
+		}
+
+		// return
+		return $lines;
+	}
+
+	protected static function build_runeword_recommendations($runewords)
+	{
+		// print the lines
+		$lines = [];
+		foreach ($runewords as $payload)
+		{
+			$name = ex($payload, 'name');
+			$item_code = ex($payload, 'code');
+			$items = ex($payload, 'items', []);
+
+			// load info about this item
+			$info = static::get_base_info($item_code);
 
 			// print
-			$lines[] = '';
-			$lines[] = '// '.ex($info, 'name').' ('.$item_type.')';
+			$lines[] = '// '.$name.' ('.$item_code.')';
 			#$lines[] = '// -------';
 
-			#asort($sockets, SORT_NUMERIC);
-
-			foreach ($sockets as $sockets => $runewords)
+			foreach ($items as $sockets => $runewords)
 			{
 				// build
 				$label = static::get_base_label($runewords);
-				$description = static::get_base_description($conversions, $runewords);
+				$description = static::get_base_description($item_code, $runewords);
 
 				// determine if larzuk is an option
 				$is_larzukable = false;
@@ -358,44 +365,190 @@ class App
 				}
 
 				// print
-				$lines[] = '// '.$sockets.' Sockets';
+				$line = '// - '.$sockets.'os / ';
 				foreach ($runewords as $runeword)
 				{
-					$lines[] = '// - '.ex($runeword, 'title').' ('.ex($runeword, 'level').')';
+					$line .= ex($runeword, 'name').', ';
 				}
-				$lines[] = 'ItemDisplay[NMAG !INF !SUP !RW ('.$item_type.') (SOCK='.$sockets.($is_larzukable ? ' OR (SOCK=0 ILVL>'.$ilvl_floor.' ILVL<'.($ilvl_ceil+1).')' : '').')]: %NAME% %DARK_GREEN%'.$label.'%WHITE%%MAP%%TIER-2% {'.$description.'}';
+				$lines[] = trim($line, ', ');
+				#$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') (SOCK='.$sockets.($is_larzukable ? ' OR (SOCK=0 ILVL>'.$ilvl_floor.' ILVL<'.($ilvl_ceil+1).')' : '').')]: %NAME% %DARK_GREEN%'.$label.'%WHITE%{'.$description.'}';
+				$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') (SOCK='.$sockets.($is_larzukable ? ' OR (SOCK=0 ILVL>'.$ilvl_floor.' ILVL<'.($ilvl_ceil+1).')' : '').')]: %NAME%%WHITE%{'.$description.'}';
 			}
 
 			// print
-			$find = ex($item_types2class, $item_type);
-			$class = ex($types, $find);
+			$filtered_item_code = static::filter_item_codes($item_code);
+			$find = ex(static::$item_codes2class, $filtered_item_code, $filtered_item_code);
+			$class = ex(static::$item_types_to_socket_types, $find, $filtered_item_code);
 			switch ($class)
 			{
+				case 'CIRC':
+				case 'BARB':
+				case 'DRU':
 				case 'helm':
 					$description = '%WHITE%Socket with %ORANGE%RalThul %BLUE%o%WHITE%Perfect'; // saphire
 					break;
 				case 'armor':
 					$description = '%WHITE%Socket with %ORANGE%TalThul o%WHITE%Perfect'; // topaz
 					break;
+				case 'DIN':
 				case 'shield':
-					$description = '%WHITE%Socket with %ORANGE%TalAmn %RED%o%WHITEPerfect'; // ruby
+					$description = '%WHITE%Socket with %ORANGE%TalAmn %RED%o%WHITE%Perfect'; // ruby
 					break;
+				case 'WAND':
+				case 'SIN':
+				case 'STAFF':
 				case 'weapon':
 					$description = '%WHITE%Socket with %ORANGE%RalAmn %PURPLE%o%WHITE%Perfect'; // amythyst
+					break;
+				default:
+					terminal('Unable to find socket reciple for item "'.$filtered_item_code.'".');
+					die();
 					break;
 			}
 			if ($class)
 			{
-				$lines[] = '// 0 Sockets';
-				$lines[] = 'ItemDisplay[NMAG !INF !SUP !RW ('.$item_type.') SOCK=0]: %NAME% %WHITE%%MAP%%TIER-2% {'.$description.'}';
+				$lines[] = '// - 0os';
+				$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') SOCK=0]: %NAME%%WHITE%{'.$description.'}';
 			}
+
+			$lines[] = '';
 		}
 
 		// return
 		return $lines;
 	}
 
-	protected static function get_base_description($conversions, $runewords, $is_trimming = false)
+	protected static function compile_uniques()
+	{
+		// load tiered items
+		$tiers = [
+			'UNI' => csv(path('storage/uniques.csv')),
+			'SET' => csv(path('storage/sets.csv')),
+		];
+
+		// compile by item type
+		$compiled = [];
+		foreach ($tiers as $type => $items)
+		{
+			foreach ($items as $item)
+			{
+				$code = ex($item, 'code');
+				$item['type'] = $type;
+
+				// if this is an item we even want to use...
+				if (ex($item, 'tier') or ex($item, 'tier_with_params'))
+				{
+					// see if this item code includes ORs that can be split
+					$code = str_ireplace(['(', ')'], ['', ''], $code); // filter out parenthesis
+					$parts = explode(' OR ', $code);
+
+					foreach ($parts as $part)
+					{
+						$part = trim($part);
+						$compiled[$part][] = $item;
+					}
+				}
+			}
+		}
+
+		// build into final array
+		$final = [];
+		foreach ($compiled as $item_code => $items)
+		{
+			$info = static::get_base_info($item_code);
+
+			$final[$item_code] = [
+				'name' => ex($info, 'name'),
+				'code' => $item_code,
+				'items' => $items,
+			];
+		}
+
+		// sort the final array by item name
+		$final = array_orderby($final, ['name' => SORT_ASC]);
+
+		// return
+		return $final;
+	}
+
+	protected static function compile_runewords()
+	{
+		// load resources
+		$runewords = csv(path('storage/runewords.csv'));
+
+		// compile into first array
+		$compile = [];
+		foreach ($runewords as $runeword)
+		{
+			// info about this runeword
+			$sockets = sizeof(explode(',', ex($runeword, 'runes')));
+
+			// foreach preferred base item
+			$item_codes = [];
+			foreach (explode(', ', ex($runeword, 'code')) as $item_code)
+			{
+				// trim
+				$item_code = trim($item_code);
+
+				// if item type isn't blank (bc we don't want to use that runeword)...
+				if ($item_code)
+				{
+					// see if this item type should be renamed to match filter
+					$alt_item_codes = ex(static::$item_types_to_filter_types, $item_code, []);
+					if (sizeof($alt_item_codes))
+					{
+						foreach ($alt_item_codes as $alt_item_code)
+						{
+							$item_codes[] = $alt_item_code;
+						}
+					}
+					else
+					{
+						$item_codes[] = $item_code;
+					}
+				}
+			}
+
+			// foreach item type...
+			foreach ($item_codes as $item_code)
+			{
+				// save
+				$compiled[$item_code][$sockets][] = $runeword;
+			}
+		}
+
+		// sort into final array
+		$final = [];
+		foreach ($compiled as $item_code => $items)
+		{
+			$info = static::get_base_info($item_code);
+
+			// sort the runewords by number of sockets needed desc
+			krsort($items);
+
+			// sort all the runewords for each socket count by level desc
+			foreach ($items as $sockets => $list)
+			{
+				$list = array_orderby($list, ['level' => SORT_ASC]);
+				$items[$sockets] = $list;
+			}
+
+			// save to final array
+			$final[$item_code] = [
+				'name' => ex($info, 'name'),
+				'code' => $item_code,
+				'items' => $items,
+			];
+		}
+
+		// sort the final array by item name
+		$final = array_orderby($final, ['name' => SORT_ASC]);
+
+		// return
+		return $final;
+	}
+
+	protected static function get_base_description($item_code, $runewords)
 	{
 		// sort runewords by level
 		$runewords = array_orderby($runewords, ['level' => SORT_ASC]);
@@ -403,18 +556,14 @@ class App
 		$description = '';
 		foreach ($runewords as $runeword)
 		{
-			// if not trimming...
-			if (!$is_trimming)
-			{
-				// determine name
-				$name = ex($runeword, 'title');
+			// determine name
+			$name = ex($runeword, 'name');
 
-				// shorten name
-				$name = ex($conversions, 'rename.'.$name, $name);
+			// shorten name
+			$name = ex(static::$item_types_to_filter_types, 'rename.'.$name, $name);
 
-				// add to description
-				$description .= '%GOLD%'.$name.' %GRAY%'.ex($runeword, 'level').' ';
-			}
+			// add to description
+			$description .= '%GOLD%'.$name.' %GRAY%'.ex($runeword, 'level').' ';
 		}
 		$description = substr($description, 0, -1);
 
@@ -422,6 +571,7 @@ class App
 		$max_string = 128;
 		if (strlen($description) >= $max_string)
 		{
+			terminal($item_code);
 			terminal($description);
 			terminal('OVER STRING LIMIT BY '.(strlen($description) - $max_string));
 			die();
@@ -431,14 +581,14 @@ class App
 		return $description;
 	}
 
-	protected static function get_base_info($item_code, $item_types2names, $larzuk_item_types)
+	protected static function get_base_info($item_code)
 	{
 		// find item name
-		$name = ex($item_types2names, $item_code, 'Unknown');
+		$name = ex(static::$item_codes2names, $item_code, 'Unknown');
 
 		// find larzuk socket counts
 		$larzuk = [];
-		foreach ($larzuk_item_types as $lookup)
+		foreach (static::$larzuk_item_types as $lookup)
 		{
 			if (trim(ex($lookup, 'item')) == $name)
 			{
@@ -460,23 +610,139 @@ class App
 
 	protected static function get_base_label($runewords)
 	{
-		$label = ex($runewords, '0.title');
+		$label = ex($runewords, '0.name');
 		foreach ($runewords as $runeword)
 		{
 			if (ex($runeword, 'is_priority'))
 			{
-				return ex($runeword, 'title');
+				return ex($runeword, 'name');
 			}
 		}
 
 		return $label;
 	}
 
-	protected static function get_base_item_type_by_code($code, $items, $types)
+	protected static function get_tier_color($tier)
 	{
-		$types =
-		$items = csv(path('storage/items.csv'), false, "|");
+		return ex(static::$config, 'tiers.colors.'.$tier);
+	}
 
+	protected static function merge_uniques_and_runewords($uniques, $runewords)
+	{
+		$merge = [];
 
+		foreach ($uniques as $item)
+		{
+			$name = ex($item, 'name');
+			$code = ex($item, 'code');
+
+			$merge[$code] = [
+				'name' => $name,
+				'code' => $code,
+			];
+
+			$merge[$code]['uniques'] = ex($item, 'items', []);
+		}
+
+		foreach ($runewords as $item)
+		{
+			$name = ex($item, 'name');
+			$code = ex($item, 'code');
+
+			if (!isset($merge[$code]))
+			{
+				$merge[$code] = [
+					'name' => $name,
+					'code' => $code,
+				];
+			}
+
+			$merge[$code]['runewords'] = ex($item, 'items', []);
+		}
+
+		// sort by item name
+		$merge = array_orderby($merge, ['name' => SORT_ASC]);
+
+		// return
+		return $merge;
+	}
+
+	protected static function filter_params($item_type, $item_code, $params, $sockets = null)
+	{
+		// if we are ignoring superior items...
+		if (ex(static::$config, 'is_ignore_superior'))
+		{
+			// init
+			$list_of_params_to_remove = [];
+
+			// split up the params
+			$parts = explode(' ', $params);
+
+			// foreach param...
+			foreach ($parts as $param)
+			{
+				// split by greaterthan
+				$parts2 = explode('>', $param);
+				$prefix = ex($parts2, 0);
+
+				if (in_array($prefix, ['ED', 'DEF']))
+				{
+					// add to list of params
+					$list_of_params_to_remove[] = $param;
+				}
+			}
+
+			// foreach param to remove
+			foreach ($list_of_params_to_remove as $param)
+			{
+				$params = str_ireplace($param, '', $params);
+			}
+		}
+
+		// filter for items that we auto add params for
+		if ($item_type == 'NMAG')
+		{
+			$item_code = static::filter_item_codes($item_code);
+			$autoadd = ex(static::$config, 'params.'.$item_code);
+			if ($autoadd)
+			{
+				$params .= ' '.$autoadd;
+			}
+		}
+
+		// ignore all !eth commands -- it's too complicated to track all this
+		$params = str_ireplace('!ETH', '', $params);
+
+		// strip out double spaces
+		$params = str_ireplace('  ', ' ', $params);
+
+		// return
+		return trim($params);
+	}
+
+	protected static function filter_item_codes($item_code)
+	{
+		return str_ireplace(['ELT ', 'EXC ', 'NORM '], ['', '', ''], $item_code);
+	}
+
+	protected static function build_working_arrays()
+	{
+		// build working array of items
+		$items = csv(path('storage/reference/items.csv'), false, "|");
+		static::$item_codes2names = [];
+		static::$item_codes2class = [];
+		static::$item_names2types = [];
+		foreach ($items as $item)
+		{
+			static::$item_codes2names[ex($item, 1)] = ex($item, 0);
+			static::$item_codes2class[ex($item, 1)] = ex($item, 2);
+			static::$item_names2types[ex($item, 0)] = ex($item, 1);
+		}
+
+		$part1 = require(path('config/item_types_to_filter_types.php')); // convert game item types to filter item types
+		$part2 = ex(static::$config, 'codes', []); // custom preferences to convert shorthand in runewords.csv to actual item types
+		static::$item_types_to_filter_types = array_merge($part1, $part2);
+		static::$item_types_to_socket_types = require(path('config/item_types_to_socket_types.php'));
+		static::$larzuk_item_types = csv(path('storage/reference/larzuk.csv'));
 	}
 }

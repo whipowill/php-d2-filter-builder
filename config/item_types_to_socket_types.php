@@ -1,7 +1,7 @@
 <?php
 
-// This converts an item type into a macro type that can be used
-// to determine the correct socket recipes for that item.
+// This looks up what class an item is so we know what the
+// socket recipe will be for it.
 
 return [
 
