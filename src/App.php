@@ -8,7 +8,8 @@ class App
 		$item_names2types,
 		$item_types_to_filter_types,
 		$item_types_to_socket_types,
-		$larzuk_item_types;
+		$larzuk_item_types,
+		$item_autoparams;
 
 
 	public static function run()
@@ -87,7 +88,7 @@ class App
 						{
 							$name = ex($item, 'name');
 							$type = ex($item, 'type');
-							$params = static::filter_params($type, $item_code, ex($item, 'params'));
+							$params = ex($item, 'params');
 							$note = ex($item, 'note');
 
 							// print lines
@@ -206,7 +207,7 @@ class App
 							{
 								$name = ex($item, 'name');
 								$type = 'NMAG';
-								$params = static::filter_params($type, $item_code, ex($item, 'params'));
+								$params = ex($item, 'params');
 								$note = ex($item, 'note');
 
 								// make hash
@@ -276,6 +277,13 @@ class App
 		// if tier_with_params...
 		if ($tier_with_params)
 		{
+			// never let tier_with_params be a worse tier than tier
+			if ($tier) if ($tier_with_params > $tier) $tier_with_params = $tier;
+
+			// patch the params
+			$params = static::filter_params($type, $item_code, $params);
+
+			// print the line
 			$lines[] = 'ItemDisplay['
 				.$type.' '
 				.($type == 'NMAG' ? '!INF ' : '')
@@ -304,13 +312,17 @@ class App
 		// if tier...
 		if ($tier)
 		{
+			// patch the params
+			$params = static::filter_params($type, $item_code, null); // send blank, autoadd params from config
+
+			// print the line
 			$lines[] = 'ItemDisplay['
 				.$type.' '
 				.($type == 'NMAG' ? '!INF ' : '')
 				.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
 				.$item_code
 				.($sockets !== null ? ' SOCK='.$sockets : '')
-				//.($params ? ' '.$params : '')
+				.($params ? ' '.$params : '')
 				.']: '.static::get_tier_color($tier).'T'.$tier.'%MAP% %NAME%%TIER-'.$tier.'%';
 		}
 
@@ -376,9 +388,8 @@ class App
 			}
 
 			// print
-			$filtered_item_code = static::filter_item_codes($item_code);
-			$find = ex(static::$item_codes2class, $filtered_item_code, $filtered_item_code);
-			$class = ex(static::$item_types_to_socket_types, $find, $filtered_item_code);
+			$find = ex(static::$item_codes2class, $item_code);
+			$class = ex(static::$item_types_to_socket_types, $find);
 			switch ($class)
 			{
 				case 'CIRC':
@@ -401,7 +412,7 @@ class App
 					$description = '%WHITE%Socket with %ORANGE%RalAmn %PURPLE%o%WHITE%Perfect'; // amythyst
 					break;
 				default:
-					terminal('Unable to find socket reciple for item "'.$filtered_item_code.'".');
+					terminal('Unable to find socket reciple for item "'.$item_code.'".');
 					die();
 					break;
 			}
@@ -584,7 +595,13 @@ class App
 	protected static function get_base_info($item_code)
 	{
 		// find item name
-		$name = ex(static::$item_codes2names, $item_code, 'Unknown');
+		$name = ex(static::$item_codes2names, $item_code);
+
+		if (!$name)
+		{
+			terminal('Please specify a valid item code, "'.$item_code.'" is invalid.');
+			die();
+		}
 
 		// find larzuk socket counts
 		$larzuk = [];
@@ -702,8 +719,7 @@ class App
 		// filter for items that we auto add params for
 		if ($item_type == 'NMAG')
 		{
-			$item_code = static::filter_item_codes($item_code);
-			$autoadd = ex(static::$config, 'params.'.$item_code);
+			$autoadd = ex(static::$item_autoparams, $item_code);
 			if ($autoadd)
 			{
 				$params .= ' '.$autoadd;
@@ -718,11 +734,6 @@ class App
 
 		// return
 		return trim($params);
-	}
-
-	protected static function filter_item_codes($item_code)
-	{
-		return str_ireplace(['ELT ', 'EXC ', 'NORM '], ['', '', ''], $item_code);
 	}
 
 	protected static function build_working_arrays()
@@ -744,5 +755,18 @@ class App
 		static::$item_types_to_filter_types = array_merge($part1, $part2);
 		static::$item_types_to_socket_types = require(path('config/item_types_to_socket_types.php'));
 		static::$larzuk_item_types = csv(path('storage/reference/larzuk.csv'));
+
+		// Add autoparams to the class for reference.
+		$plist = [];
+		$pitems = ex(static::$config, 'params', []);
+		foreach ($pitems as $item_shorthand => $params)
+		{
+			$codes = ex(static::$item_types_to_filter_types, $item_shorthand, [$item_shorthand]);
+			foreach ($codes as $code)
+			{
+				$plist[$code] = $params;
+			}
+		}
+		static::$item_autoparams = $plist;
 	}
 }
