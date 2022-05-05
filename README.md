@@ -38,10 +38,6 @@ $ php run
 
 Open the file ``output.txt`` and copy the contents into the bottom of your ``BH.cfg`` loot filter config.
 
-## Issues
-
-The only "issue" is runeword base items w/ no sockets.  An unsocketed item will be marked as the highest tier possible, based on your settings, and it won't show the right tier for the item until you socket it.  This is because the eth/noeth and socket/nosocket variations of items gets too complicated to manage in the loot filter rules, so it doesn't even try.  So just know that unsocketed items will always show the most charitable and optimistic tier until you socket it.
-
 ## References
 
 - [Luigi's Reddit Post](https://www.reddit.com/user/luigi13579/comments/phxd1g/diablo_ii_base_guide/)

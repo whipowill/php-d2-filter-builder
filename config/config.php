@@ -115,10 +115,10 @@ return [
         'NORM BARB' => 'SK149>0',
         'EXC BARB' => 'SK149>1',
         'ELT BARB' => 'SK149>2',
-        // druid pelts always want +tornado
-        'NORM DRU' => 'SK245>0',
-        'EXC DRU' => 'SK245>1',
-        'ELT DRU' => 'SK245>2',
+        // druid pelts always want +tornado or +oak sage or +hotw or +werewolf or +shapeshifting or +spirit wolf or +dire wolf
+        'NORM DRU' => '(SK245>0 OR SK226>0 OR SK236>0 OR SK223>0 OR SK224>0 OR SK227>0 OR SK237>0)',
+        'EXC DRU' => '(SK245>1 OR SK226>1 OR SK236>1 OR SK223>1 OR SK224>1 OR SK227>1 OR SK237>1)',
+        'ELT DRU' => '(SK245>2 OR SK226>2 OR SK236>2 OR SK223>2 OR SK224>2 OR SK227>2 OR SK237>2)',
         // assassin claws always want +lightning sentry or +venom
         'NORM SIN' => '(SK271>0 OR SK278>0)',
         'EXC SIN' => '(SK271>1 OR SK278>1)',
