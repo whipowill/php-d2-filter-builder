@@ -291,7 +291,7 @@ class App
 				.$item_code
 				.($sockets !== null ? ' SOCK='.$sockets : '')
 				.($params ? ' '.$params : '')
-				.']: '.(($type == 'NMAG' and $sockets === 0) ? '' : static::get_tier_color($tier_with_params).'T'.$tier.'%MAP% ').'%NAME%%TIER-'.$tier_with_params.'%';
+				.']: '.(($type == 'NMAG' and $sockets === 0) ? '' : static::get_tier_color($tier_with_params).'T'.$tier_with_params.'%MAP% ').'%NAME%%TIER-'.$tier_with_params.'%';
 
 			// if type is not base item and not a ring or ammy...
 			if ($type != 'NMAG' and !in_array($item_code, ['rin', 'amu']))

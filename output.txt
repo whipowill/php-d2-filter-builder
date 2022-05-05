@@ -13,19 +13,19 @@ ItemDisplay[NMAG !INF !SUP dr6 SOCK=0 (SK245>1 OR SK226>1 OR SK236>1 OR SK223>1 
 
 // Amulet (amu)
 // - Cat's Eye
-ItemDisplay[UNI !SUP amu IAS=20 FRW=30]: %GOLD%T%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP amu IAS=20 FRW=30]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - Highlord's Wrath
-ItemDisplay[UNI !SUP amu ALLSK>0 IAS=20]: %GOLD%T%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP amu ALLSK>0 IAS=20]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - Mara's Kaleidoscope
-ItemDisplay[UNI !SUP amu ALLSK>1 RES>19]: %PURPLE%T%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP amu ALLSK>1 RES>19]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 // - Metalgrid
-ItemDisplay[UNI !SUP amu AR>399]: %GOLD%T%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP amu AR>399]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - Rising Sun
-ItemDisplay[UNI !SUP amu REPLIFE=10]: %SAGE%T%MAP% %NAME%%TIER-5%
+ItemDisplay[UNI !SUP amu REPLIFE=10]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - Tal Rasha's Adjudication
-ItemDisplay[SET !SUP amu CLSK1>1]: %RED%T%MAP% %NAME%%TIER-3%
+ItemDisplay[SET !SUP amu CLSK1>1]: %RED%T3%MAP% %NAME%%TIER-3%
 // - Telling of Beads
-ItemDisplay[SET !SUP amu ALLSK>0 IAS=20]: %SAGE%T%MAP% %NAME%%TIER-5%
+ItemDisplay[SET !SUP amu ALLSK>0 IAS=20]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Antlers (dr3)
 // - 2os / Lore
@@ -35,13 +35,13 @@ ItemDisplay[NMAG !INF !SUP dr3 SOCK=0 (SK245>0 OR SK226>0 OR SK236>0 OR SK223>0 
 
 // Archon Plate (utp)
 // - 4os / Fortitude, Stone, Bramble, Chains of Honor
-ItemDisplay[NMAG !INF !SUP utp SOCK=4 ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP utp SOCK=4 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP utp SOCK=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 3os / Treachery, Duress, Enigma
 ItemDisplay[NMAG !INF !SUP utp SOCK=3 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP utp SOCK=3]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 2os / Prudence
-ItemDisplay[NMAG !INF !SUP utp SOCK=2 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP utp SOCK=2 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP utp SOCK=2]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP utp SOCK=0]: %NAME%%TIER-3%
@@ -74,7 +74,7 @@ ItemDisplay[NMAG !INF !SUP ba5 SOCK=0 SK149>0]: %NAME%%TIER-6%
 
 // Balrog Skin (upl)
 // - Arkaine's Valor
-ItemDisplay[UNI !SUP upl ALLSK=2]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP upl ALLSK=2]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP upl !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP upl]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -94,10 +94,10 @@ ItemDisplay[SET !SUP xtb]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Battle Scythe (9s8)
 // - 5os / Obedience
-ItemDisplay[NMAG !INF !SUP 9s8 SOCK=5 ETH]: %SAGE%T6%MAP% %NAME%%TIER-5%
+ItemDisplay[NMAG !INF !SUP 9s8 SOCK=5 ETH]: %SAGE%T5%MAP% %NAME%%TIER-5%
 ItemDisplay[NMAG !INF !SUP 9s8 SOCK=5]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 // - 4os / Insight
-ItemDisplay[NMAG !INF !SUP 9s8 SOCK=4 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP 9s8 SOCK=4 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP 9s8 SOCK=4]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 9s8 SOCK=0]: %NAME%%TIER-4%
@@ -110,23 +110,23 @@ ItemDisplay[NMAG !INF !SUP bst SOCK=0 (SK52>0 OR SK58>0)]: %NAME%%TIER-6%
 
 // Battle Sword (9bs)
 // - Headstriker
-ItemDisplay[UNI !SUP 9bs ETH]: %SAGE%T6%MAP% %NAME%%TIER-5%
+ItemDisplay[UNI !SUP 9bs ETH]: %SAGE%T5%MAP% %NAME%%TIER-5%
 ItemDisplay[UNI !SUP 9bs !ID]: %SAGE%T5%MAP% %NAME%%TIER-5%
 ItemDisplay[UNI !SUP 9bs]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 
 // Berserker Axe (7wa)
 // - Death Cleaver
-ItemDisplay[UNI !SUP 7wa ETH]: %ORANGE%T2%MAP% %NAME%%TIER-1%
+ItemDisplay[UNI !SUP 7wa ETH]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP 7wa !ID]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP 7wa]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 // - 6os / Breath of the Dying, Last Wish
-ItemDisplay[NMAG !INF !SUP 7wa SOCK=6 ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP 7wa SOCK=6 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP 7wa SOCK=6]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 5os / Death, Grief, Beast
 ItemDisplay[NMAG !INF !SUP 7wa SOCK=5 ETH]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP 7wa SOCK=5]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 // - 4os / Oath
-ItemDisplay[NMAG !INF !SUP 7wa SOCK=4 ETH]: %LIGHT_GRAY%T%MAP% %NAME%%TIER-6%
+ItemDisplay[NMAG !INF !SUP 7wa SOCK=4 ETH]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 7wa SOCK=0]: %NAME%%TIER-2%
 
@@ -138,7 +138,7 @@ ItemDisplay[NMAG !INF !SUP drb SOCK=0 (SK245>2 OR SK226>2 OR SK236>2 OR SK223>2 
 
 // Bloodlord Skull (nef)
 // - Darkforge Spawn
-ItemDisplay[UNI !SUP nef TABSK17>2]: %PURPLE%T%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP nef TABSK17>2]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP nef !ID]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 
 // Bone Knife (7dg)
@@ -153,7 +153,7 @@ ItemDisplay[NMAG !INF !SUP bsh SOCK=0]: %NAME%%TIER-6%
 
 // Bone Visage (uh9)
 // - Giantskull
-ItemDisplay[UNI !SUP uh9 SOCK=2]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP uh9 SOCK=2]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP uh9 !ID]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP uh9]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 3os / Delirium, Dream
@@ -179,7 +179,7 @@ ItemDisplay[UNI !SUP 9wn]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - Astreon’s Iron Ward
 ItemDisplay[UNI !SUP 7ws]: %RED%T3%MAP% %NAME%%TIER-3%
 // - Griswolds's Redemption
-ItemDisplay[SET !SUP 7ws SOCK=4]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[SET !SUP 7ws SOCK=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[SET !SUP 7ws !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[SET !SUP 7ws]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -195,7 +195,7 @@ ItemDisplay[NMAG !INF !SUP bab SOCK=0 SK149>2]: %NAME%%TIER-4%
 
 // Casque (xlm)
 // - Stealskull
-ItemDisplay[UNI !SUP xlm ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP xlm ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xlm !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xlm]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -217,7 +217,7 @@ ItemDisplay[NMAG !INF !SUP am7 SOCK=0 TABSK0>1]: %NAME%%TIER-6%
 
 // Ceremonial Javelin (ama)
 // - Titan's Revenge
-ItemDisplay[UNI !SUP ama ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP ama ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP ama !ID]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP ama]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
@@ -235,17 +235,17 @@ ItemDisplay[NMAG !INF !SUP ci0 SOCK=0]: %NAME%%TIER-4%
 
 // Colossus Blade (7gd)
 // - 6os / Breath of the Dying
-ItemDisplay[NMAG !INF !SUP 7gd SOCK=6 ETH]: %RED%T%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP 7gd SOCK=6 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 5os / Death
-ItemDisplay[NMAG !INF !SUP 7gd SOCK=5 ETH]: %RED%T%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP 7gd SOCK=5 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 4os / Oath
-ItemDisplay[NMAG !INF !SUP 7gd SOCK=4 ETH]: %LIGHT_GRAY%T%MAP% %NAME%%TIER-6%
+ItemDisplay[NMAG !INF !SUP 7gd SOCK=4 ETH]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 7gd SOCK=0]: %NAME%%TIER-3%
 
 // Colossus Sword (7fb)
 // - 4os / Oath
-ItemDisplay[NMAG !INF !SUP 7fb SOCK=4 ETH]: %LIGHT_GRAY%T%MAP% %NAME%%TIER-6%
+ItemDisplay[NMAG !INF !SUP 7fb SOCK=4 ETH]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 7fb SOCK=0]: %NAME%%TIER-6%
 
@@ -257,7 +257,7 @@ ItemDisplay[NMAG !INF !SUP bae SOCK=0 SK149>2]: %NAME%%TIER-4%
 
 // Corona (urn)
 // - Crown of Ages
-ItemDisplay[UNI !SUP urn SOCK=2]: %ORANGE%T2%MAP% %NAME%%TIER-1%
+ItemDisplay[UNI !SUP urn SOCK=2]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP urn !ID]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP urn]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 // - Griswold's Valor
@@ -273,7 +273,7 @@ ItemDisplay[NMAG !INF !SUP ci1 SOCK=0]: %NAME%%TIER-4%
 
 // Cryptic Axe (7pa)
 // - Tomb Reaver
-ItemDisplay[UNI !SUP 7pa ETH SOCK=3]: %ORANGE%T3%MAP% %NAME%%TIER-1%
+ItemDisplay[UNI !SUP 7pa ETH SOCK=3]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP 7pa !ID]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP 7pa]: %RED%T3%MAP% %NAME%%TIER-3%
 
@@ -287,7 +287,7 @@ ItemDisplay[NMAG !INF !SUP crs SOCK=0]: %NAME%%TIER-5%
 
 // Cuirass (xrs)
 // - Duriel's Shell
-ItemDisplay[UNI !SUP xrs ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP xrs ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xrs !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xrs]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -301,7 +301,7 @@ ItemDisplay[SET !SUP xsk]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Demonhead (usk)
 // - Andariel's Visage
-ItemDisplay[UNI !SUP usk ETH]: %PURPLE%T3%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP usk ETH]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP usk !ID]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP usk]: %RED%T3%MAP% %NAME%%TIER-3%
 
@@ -343,17 +343,17 @@ ItemDisplay[NMAG !INF !SUP drf SOCK=0 (SK245>2 OR SK226>2 OR SK236>2 OR SK223>2 
 
 // Dusk Shroud (uui)
 // - Ormus' Robes
-ItemDisplay[UNI !SUP uui (SK49>0 OR SK53>0 OR SK52>0 OR SK59>0)]: %PURPLE%T4%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP uui (SK49>0 OR SK53>0 OR SK52>0 OR SK59>0)]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP uui !ID]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP uui]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 4os / Fortitude, Stone, Bramble, Chains of Honor
-ItemDisplay[NMAG !INF !SUP uui SOCK=4 ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP uui SOCK=4 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP uui SOCK=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 3os / Treachery, Duress, Enigma
 ItemDisplay[NMAG !INF !SUP uui SOCK=3 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP uui SOCK=3]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 2os / Prudence
-ItemDisplay[NMAG !INF !SUP uui SOCK=2 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP uui SOCK=2 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP uui SOCK=2]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP uui SOCK=0]: %NAME%%TIER-3%
@@ -372,13 +372,13 @@ ItemDisplay[SET !SUP 6cs]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Eldritch Orb (obc)
 // - Eschuta's Temper
-ItemDisplay[UNI !SUP obc CLSK1=3]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP obc CLSK1=3]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP obc !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP obc]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Ettin Axe (72a)
 // - Runemaster
-ItemDisplay[UNI !SUP 72a ETH SOCK=5]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 72a ETH SOCK=5]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 72a !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 72a]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -420,7 +420,7 @@ ItemDisplay[NMAG !INF !SUP bac SOCK=0 SK149>2]: %NAME%%TIER-4%
 
 // Fuscina (9tr)
 // - Kelpie Snare
-ItemDisplay[UNI !SUP 9tr ETH]: %GOLD%T6%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 9tr ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 9tr !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 9tr]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 
@@ -432,10 +432,10 @@ ItemDisplay[UNI !SUP hgl]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Giant Thresher (7wc)
 // - 5os / Doom
-ItemDisplay[NMAG !INF !SUP 7wc SOCK=5 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP 7wc SOCK=5 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP 7wc SOCK=5]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 4os / Infinity, Pride
-ItemDisplay[NMAG !INF !SUP 7wc SOCK=4 ETH]: %PURPLE%T4%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP 7wc SOCK=4 ETH]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP 7wc SOCK=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 7wc SOCK=0]: %NAME%%TIER-2%
@@ -458,7 +458,7 @@ ItemDisplay[UNI !SUP cm3]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Grand Crown (xrn)
 // - Crown of Thieves
-ItemDisplay[UNI !SUP xrn ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP xrn ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xrn !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xrn]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -492,16 +492,16 @@ ItemDisplay[NMAG !INF !SUP dr7 SOCK=0 (SK245>1 OR SK226>1 OR SK236>1 OR SK223>1 
 
 // Grim Helm (xh9)
 // - Vampire Gaze
-ItemDisplay[UNI !SUP xh9 ETH]: %RED%T5%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP xh9 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP xh9 !ID]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP xh9]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Grim Scythe (9wc)
 // - 5os / Obedience
-ItemDisplay[NMAG !INF !SUP 9wc SOCK=5 ETH]: %SAGE%T6%MAP% %NAME%%TIER-5%
+ItemDisplay[NMAG !INF !SUP 9wc SOCK=5 ETH]: %SAGE%T5%MAP% %NAME%%TIER-5%
 ItemDisplay[NMAG !INF !SUP 9wc SOCK=5]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 // - 4os / Insight
-ItemDisplay[NMAG !INF !SUP 9wc SOCK=4 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP 9wc SOCK=4 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP 9wc SOCK=4]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 9wc SOCK=0]: %NAME%%TIER-4%
@@ -560,13 +560,13 @@ ItemDisplay[NMAG !INF !SUP dr8 SOCK=0 (SK245>1 OR SK226>1 OR SK236>1 OR SK223>1 
 // - Windforce
 ItemDisplay[UNI !SUP 6lw]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 6os / Breath of the Dying
-ItemDisplay[NMAG !INF !SUP 6lw SOCK=6 ETH]: %RED%T%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP 6lw SOCK=6 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 6lw SOCK=0]: %NAME%%TIER-3%
 
 // Hyperion Spear (7sr)
 // - Arioc's Needle
-ItemDisplay[UNI !SUP 7sr ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7sr ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7sr !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7sr]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -596,7 +596,7 @@ ItemDisplay[NMAG !INF !SUP kit SOCK=0]: %NAME%%TIER-6%
 
 // Kurast Shield (pad)
 // - 4os / Exile, Spirit, Phoenix
-ItemDisplay[NMAG !INF !SUP pad SOCK=4 ETH RES>34]: %PURPLE%T3%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP pad SOCK=4 ETH RES>34]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP pad SOCK=4 RES>34]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 3os / Sanctuary
 ItemDisplay[NMAG !INF !SUP pad SOCK=3 RES>34]: %SAGE%T5%MAP% %NAME%%TIER-5%
@@ -653,10 +653,10 @@ ItemDisplay[NMAG !INF !SUP lst SOCK=0 (SK52>0 OR SK58>0)]: %NAME%%TIER-6%
 // - Que-Hegan's Wisdon
 ItemDisplay[UNI !SUP xtp]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 // - 3os / Treachery, Wealth, Duress
-ItemDisplay[NMAG !INF !SUP xtp SOCK=3 ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP xtp SOCK=3 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP xtp SOCK=3]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 2os / Prudence, Smoke
-ItemDisplay[NMAG !INF !SUP xtp SOCK=2 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP xtp SOCK=2 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP xtp SOCK=2]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP xtp SOCK=0]: %NAME%%TIER-3%
@@ -669,13 +669,13 @@ ItemDisplay[NMAG !INF !SUP amb SOCK=0 TABSK0>2]: %NAME%%TIER-3%
 
 // Matriarchal Javelin (amf)
 // - Thunderstroke
-ItemDisplay[UNI !SUP amf TABSK2=4]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP amf TABSK2=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP amf !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP amf]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Mesh Armor (xhn)
 // - Shaftstop
-ItemDisplay[UNI !SUP xhn ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP xhn ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xhn !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xhn]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -689,7 +689,7 @@ ItemDisplay[UNI !SUP xmb]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Mighty Scepter (7sc)
 // - Heaven's Light
-ItemDisplay[UNI !SUP 7sc SOCK=2]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7sc SOCK=2]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7sc !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7sc]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -713,7 +713,7 @@ ItemDisplay[UNI !SUP uhb]: %RED%T3%MAP% %NAME%%TIER-3%
 
 // Ogre Axe (7o7)
 // - Bonehew
-ItemDisplay[UNI !SUP 7o7 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7o7 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7o7 !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7o7]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -723,7 +723,7 @@ ItemDisplay[UNI !SUP uhg]: %RED%T3%MAP% %NAME%%TIER-3%
 
 // Ogre Maul (7m7)
 // - Windhammer
-ItemDisplay[UNI !SUP 7m7 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7m7 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7m7 !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7m7]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -731,7 +731,7 @@ ItemDisplay[UNI !SUP 7m7]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Phase Blade (7cr)
 // - Azurewrath
-ItemDisplay[UNI !SUP 7cr ALLSK=1]: %GOLD%T%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7cr ALLSK=1]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7cr !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 6os / Last Wish
 ItemDisplay[NMAG !INF !SUP 7cr SOCK=6]: %GOLD%T4%MAP% %NAME%%TIER-4%
@@ -749,7 +749,7 @@ ItemDisplay[NMAG !INF !SUP 7cr SOCK=0]: %NAME%%TIER-2%
 
 // Quarterstaff (8ls)
 // - Ribcracker
-ItemDisplay[UNI !SUP 8ls ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 8ls ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 8ls !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 8ls]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -767,17 +767,17 @@ ItemDisplay[NMAG !INF !SUP am2 SOCK=0 TABSK0>0]: %NAME%%TIER-6%
 
 // Ring (rin)
 // - Bul Katho's Wedding Band
-ItemDisplay[UNI !SUP rin ALLSK>0]: %PURPLE%T%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP rin ALLSK>0]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 // - Dwarf Star
-ItemDisplay[UNI !SUP rin LIFE=40]: %SAGE%T%MAP% %NAME%%TIER-5%
+ItemDisplay[UNI !SUP rin LIFE=40]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - Nagelring
-ItemDisplay[UNI !SUP rin MFIND=30]: %SAGE%T%MAP% %NAME%%TIER-5%
+ItemDisplay[UNI !SUP rin MFIND=30]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - Nature's Peace
-ItemDisplay[UNI !SUP rin PRES>19 PRES<31]: %GOLD%T%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP rin PRES>19 PRES<31]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - Raven Frost
-ItemDisplay[UNI !SUP rin AR>149]: %GOLD%T%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP rin AR>149]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - Wisp
-ItemDisplay[UNI !SUP rin CHSK236=5]: %RED%T%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP rin CHSK236=5]: %RED%T3%MAP% %NAME%%TIER-3%
 
 // Round Shield (xml)
 // - Mosers Blessed Circle
@@ -793,13 +793,13 @@ ItemDisplay[NMAG !INF !SUP 7tw SOCK=0 (SK271>2 OR SK278>2)]: %NAME%%TIER-4%
 
 // Russet Armor (xpl)
 // - Skullder's Ire
-ItemDisplay[UNI !SUP xpl ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP xpl ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xpl !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xpl]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Sacred Armor (uar)
 // - Tyrael's Might
-ItemDisplay[UNI !SUP uar FRW>19]: %ORANGE%T%MAP% %NAME%%TIER-1%
+ItemDisplay[UNI !SUP uar FRW>19]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 ItemDisplay[UNI !SUP uar !ID]: %ORANGE%T1%MAP% %NAME%%TIER-1%
 // - Immortal King's Soul Cage 
 ItemDisplay[SET !SUP uar]: %GOLD%T4%MAP% %NAME%%TIER-4%
@@ -812,7 +812,7 @@ ItemDisplay[NMAG !INF !SUP dr9 SOCK=0 (SK245>1 OR SK226>1 OR SK236>1 OR SK223>1 
 
 // Sacred Rondache (pac)
 // - 4os / Exile, Spirit, Phoenix
-ItemDisplay[NMAG !INF !SUP pac SOCK=4 ETH RES>34]: %PURPLE%T3%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP pac SOCK=4 ETH RES>34]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP pac SOCK=4 RES>34]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 3os / Sanctuary
 ItemDisplay[NMAG !INF !SUP pac SOCK=3 RES>34]: %SAGE%T5%MAP% %NAME%%TIER-5%
@@ -821,7 +821,7 @@ ItemDisplay[NMAG !INF !SUP pac SOCK=0 RES>34]: %NAME%%TIER-2%
 
 // Sacred Targe (pab)
 // - 4os / Exile, Spirit, Phoenix
-ItemDisplay[NMAG !INF !SUP pab SOCK=4 ETH RES>34]: %PURPLE%T3%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP pab SOCK=4 ETH RES>34]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP pab SOCK=4 RES>34]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 3os / Sanctuary
 ItemDisplay[NMAG !INF !SUP pab SOCK=3 RES>34]: %SAGE%T5%MAP% %NAME%%TIER-5%
@@ -840,7 +840,7 @@ ItemDisplay[NMAG !INF !SUP ba9 SOCK=0 SK149>1]: %NAME%%TIER-6%
 
 // Scarabshell Boots (uvb)
 // - Sandstorm Trek
-ItemDisplay[UNI !SUP uvb ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP uvb ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP uvb !ID]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP uvb]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
@@ -852,13 +852,13 @@ ItemDisplay[NMAG !INF !SUP 7qr SOCK=0 (SK271>2 OR SK278>2)]: %NAME%%TIER-4%
 
 // Scourge (7fl)
 // - Stormlash
-ItemDisplay[UNI !SUP 7fl IAS=30]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP 7fl IAS=30]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP 7fl !ID]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP 7fl]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Scythe (scy)
 // - 4os / Insight
-ItemDisplay[NMAG !INF !SUP scy SOCK=4 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP scy SOCK=4 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP scy SOCK=4]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP scy SOCK=0]: %NAME%%TIER-4%
@@ -913,7 +913,7 @@ ItemDisplay[UNI !SUP ulc]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 
 // Spired Helm (uhm)
 // - Nightwing's Veil
-ItemDisplay[UNI !SUP uhm ALLSK>1]: %PURPLE%T%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP uhm ALLSK>1]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP uhm !ID]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 
 // Spirit Mask (dr5)
@@ -954,20 +954,20 @@ ItemDisplay[SET !SUP oba]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Templar Coat (xlt)
 // - Guardian Angel
-ItemDisplay[UNI !SUP xlt ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP xlt ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xlt !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP xlt]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Thresher (7s8)
 // - Reaper's Toll
-ItemDisplay[UNI !SUP 7s8 ETH]: %PURPLE%T4%MAP% %NAME%%TIER-2%
+ItemDisplay[UNI !SUP 7s8 ETH]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP 7s8 !ID]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[UNI !SUP 7s8]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 5os / Doom
-ItemDisplay[NMAG !INF !SUP 7s8 SOCK=5 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP 7s8 SOCK=5 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP 7s8 SOCK=5]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 4os / Infinity, Pride
-ItemDisplay[NMAG !INF !SUP 7s8 SOCK=4 ETH]: %PURPLE%T4%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP 7s8 SOCK=4 ETH]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP 7s8 SOCK=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 7s8 SOCK=0]: %NAME%%TIER-2%
@@ -996,10 +996,10 @@ ItemDisplay[NMAG !INF !SUP dra SOCK=0 (SK245>1 OR SK226>1 OR SK236>1 OR SK223>1 
 
 // Trellised Armor (xtu)
 // - 3os / Treachery, Wealth, Duress
-ItemDisplay[NMAG !INF !SUP xtu SOCK=3 ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP xtu SOCK=3 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP xtu SOCK=3]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 2os / Prudence, Smoke
-ItemDisplay[NMAG !INF !SUP xtu SOCK=2 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP xtu SOCK=2 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP xtu SOCK=2]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP xtu SOCK=0]: %NAME%%TIER-3%
@@ -1010,7 +1010,7 @@ ItemDisplay[SET !SUP utc]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Troll Nest (ush)
 // - Headhunter's Glory
-ItemDisplay[UNI !SUP ush SOCK=3]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[UNI !SUP ush SOCK=3]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP ush !ID]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[UNI !SUP ush]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 3os / Sanctuary, Dream
@@ -1038,7 +1038,7 @@ ItemDisplay[UNI !SUP uvc]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - Griswold's Honor
 ItemDisplay[SET !SUP paf]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 4os / Exile, Spirit, Phoenix
-ItemDisplay[NMAG !INF !SUP paf SOCK=4 ETH RES>34]: %PURPLE%T3%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP paf SOCK=4 ETH RES>34]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP paf SOCK=4 RES>34]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 3os / Sanctuary
 ItemDisplay[NMAG !INF !SUP paf SOCK=3 RES>34]: %SAGE%T5%MAP% %NAME%%TIER-5%
@@ -1063,7 +1063,7 @@ ItemDisplay[UNI !SUP xap]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 
 // War Pike (7p7)
 // - 6os / Breath of the Dying
-ItemDisplay[NMAG !INF !SUP 7p7 SOCK=6 ETH]: %RED%T%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP 7p7 SOCK=6 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 0os
 ItemDisplay[NMAG !INF !SUP 7p7 SOCK=0]: %NAME%%TIER-3%
 
@@ -1075,7 +1075,7 @@ ItemDisplay[NMAG !INF !SUP wsp SOCK=0 (SK121>2 OR SK123>2)]: %NAME%%TIER-6%
 
 // War Scythe (wsc)
 // - 4os / Insight
-ItemDisplay[NMAG !INF !SUP wsc SOCK=4 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP wsc SOCK=4 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP wsc SOCK=4]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP wsc SOCK=0]: %NAME%%TIER-4%
@@ -1092,7 +1092,7 @@ ItemDisplay[UNI !SUP 6sw]: %LIGHT_GRAY%T6%MAP% %NAME%%TIER-6%
 
 // Winged Axe (7b8)
 // - Lacerator
-ItemDisplay[UNI !SUP 7b8 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7b8 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7b8 !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7b8]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -1104,23 +1104,23 @@ ItemDisplay[SET !SUP xhm]: %GOLD%T4%MAP% %NAME%%TIER-4%
 
 // Winged Knife (7bk)
 // - Warshrike
-ItemDisplay[UNI !SUP 7bk ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 7bk ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7bk !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 7bk]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Wire Fleece (utu)
 // - Gladiator's Bane
-ItemDisplay[UNI !SUP utu ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP utu ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP utu !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP utu]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 4os / Fortitude, Stone, Bramble, Chains of Honor
-ItemDisplay[NMAG !INF !SUP utu SOCK=4 ETH]: %RED%T4%MAP% %NAME%%TIER-3%
+ItemDisplay[NMAG !INF !SUP utu SOCK=4 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP utu SOCK=4]: %GOLD%T4%MAP% %NAME%%TIER-4%
 // - 3os / Treachery, Duress, Enigma
 ItemDisplay[NMAG !INF !SUP utu SOCK=3 ETH]: %RED%T3%MAP% %NAME%%TIER-3%
 ItemDisplay[NMAG !INF !SUP utu SOCK=3]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 2os / Prudence
-ItemDisplay[NMAG !INF !SUP utu SOCK=2 ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[NMAG !INF !SUP utu SOCK=2 ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[NMAG !INF !SUP utu SOCK=2]: %SAGE%T5%MAP% %NAME%%TIER-5%
 // - 0os
 ItemDisplay[NMAG !INF !SUP utu SOCK=0]: %NAME%%TIER-3%
@@ -1139,7 +1139,7 @@ ItemDisplay[NMAG !INF !SUP 7wb SOCK=0 (SK271>2 OR SK278>2)]: %NAME%%TIER-4%
 
 // Yari (9st)
 // - Hone Sundan
-ItemDisplay[UNI !SUP 9st ETH]: %GOLD%T5%MAP% %NAME%%TIER-4%
+ItemDisplay[UNI !SUP 9st ETH]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 9st !ID]: %GOLD%T4%MAP% %NAME%%TIER-4%
 ItemDisplay[UNI !SUP 9st]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
@@ -1147,7 +1147,7 @@ ItemDisplay[UNI !SUP 9st]: %SAGE%T5%MAP% %NAME%%TIER-5%
 
 // Zakarum Shield (pae)
 // - 4os / Exile, Spirit, Phoenix
-ItemDisplay[NMAG !INF !SUP pae SOCK=4 ETH RES>34]: %PURPLE%T3%MAP% %NAME%%TIER-2%
+ItemDisplay[NMAG !INF !SUP pae SOCK=4 ETH RES>34]: %PURPLE%T2%MAP% %NAME%%TIER-2%
 ItemDisplay[NMAG !INF !SUP pae SOCK=4 RES>34]: %RED%T3%MAP% %NAME%%TIER-3%
 // - 3os / Sanctuary
 ItemDisplay[NMAG !INF !SUP pae SOCK=3 RES>34]: %SAGE%T5%MAP% %NAME%%TIER-5%
