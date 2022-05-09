@@ -5,6 +5,9 @@ return [
     // Will supress any output that involves superior weapons.
     'is_ignore_superior' => true,
 
+    // Will mark unsocketed base items as best-case scenario.
+    'is_unsocketed_optimistic' => false, // false for tier 6
+
     // Set the colors you want to use on tier item notifications.
     'tiers' => [
         'colors' => [

@@ -70,6 +70,8 @@ class App
 			$uniques = ex($payload, 'uniques', []);
 			$runewords = ex($payload, 'runewords', []);
 
+			#if ($item_code == '7s8') xx($payload);
+
 			if (count($uniques) or count($runewords))
 			{
 				$lines[] = '// '.$item_name.' ('.$item_code.')';
@@ -187,11 +189,11 @@ class App
 					$key[0][1] = [
 						'name' => '0os',
 						'tier' => !$lowest_tier_with_params ? $lowest_tier : null,
-						'tier_with_params' => $lowest_tier_with_params,
+						'tier_with_params' => $lowest_tier > $lowest_tier_with_params ? $lowest_tier : $lowest_tier_with_params,
 						'params' => null,
 					];
 
-					#if ($item_code == '7wa') xx($key);
+					#if ($item_code == '7s8') xx($key);
 
 					// foreach socket count...
 					foreach ($key as $sockets => $items)
@@ -283,29 +285,48 @@ class App
 			// patch the params
 			$params = static::filter_params($type, $item_code, $params);
 
-			// print the line
-			$lines[] = 'ItemDisplay['
-				.$type.' '
-				.($type == 'NMAG' ? '!INF ' : '')
-				.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
-				.$item_code
-				.($sockets !== null ? ' SOCK='.$sockets : '')
-				.($params ? ' '.$params : '')
-				.']: '.(($type == 'NMAG' and $sockets === 0) ? '' : static::get_tier_color($tier_with_params).'T'.$tier_with_params.'%MAP% ').'%NAME%%TIER-'.$tier_with_params.'%';
-
-			// if type is not base item and not a ring or ammy...
-			if ($type != 'NMAG' and !in_array($item_code, ['rin', 'amu']))
+			// if a runeword...
+			if ($type == 'NMAG')
 			{
-				// add version that has no params and is unID
+				// if zero socket item...
+				$tier_to_show = $tier_with_params;
+				if (!ex(static::$config, 'is_unsocketed_optimistic') and !$sockets and !$params)
+				{
+					$tier_to_show = 6; // show it as worst case scenario
+				}
+
+				// print the line
 				$lines[] = 'ItemDisplay['
 					.$type.' '
 					.($type == 'NMAG' ? '!INF ' : '')
 					.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
 					.$item_code
-					.' !ID'
-					//.($sockets ? ' SOCK='.$sockets : '')
-					//.($params ? ' '.$params : '')
-					.']: '.static::get_tier_color($tier_with_params).'T'.$tier_with_params.'%MAP% %NAME%%TIER-'.$tier_with_params.'%';
+					.($sockets !== null ? ' SOCK='.$sockets : '')
+					.($params ? ' '.$params : '')
+					.']: '.static::get_tier_color($tier_to_show).'T'.$tier_to_show.' %NAME%%MAP%%TIER-'.$tier_with_params.'%';
+
+			}
+
+			// if NOT a runeword...
+			else
+			{
+				// print the line
+				$lines[] = 'ItemDisplay['
+					.$type.' '
+					.$item_code
+					.($params ? ' '.$params : '')
+					.']: '.static::get_tier_color($tier_with_params).'T'.$tier_with_params.' %NAME%%MAP%%TIER-'.$tier_with_params.'%';
+
+				// if type is not base item and not a ring or ammy...
+				if (!in_array($item_code, ['rin', 'amu']) and !$tier)
+				{
+					// add version that has no params and is unID
+					$lines[] = 'ItemDisplay['
+						.$type.' '
+						.$item_code
+						.' !ID'
+						.']: '.static::get_tier_color($tier_with_params).'T'.$tier_with_params.' %NAME%%MAP%%TIER-'.$tier_with_params.'%';
+				}
 			}
 		}
 
@@ -315,15 +336,30 @@ class App
 			// patch the params
 			$params = static::filter_params($type, $item_code, null); // send blank, autoadd params from config
 
-			// print the line
-			$lines[] = 'ItemDisplay['
-				.$type.' '
-				.($type == 'NMAG' ? '!INF ' : '')
-				.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
-				.$item_code
-				.($sockets !== null ? ' SOCK='.$sockets : '')
-				.($params ? ' '.$params : '')
-				.']: '.(($type == 'NMAG' and $sockets === 0) ? '' : static::get_tier_color($tier).'T'.$tier.'%MAP% ').'%NAME%%TIER-'.$tier.'%';
+			// if runeword item...
+			if ($type == 'NMAG')
+			{
+				// print the line
+				$lines[] = 'ItemDisplay['
+					.$type.' '
+					.'!INF '
+					.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '')
+					.$item_code
+					.($sockets !== null ? ' SOCK='.$sockets : '')
+					.($params ? ' '.$params : '')
+					.']: '.static::get_tier_color($tier).'T'.$tier.' %NAME%%MAP%%TIER-'.$tier.'%';
+			}
+
+			// if NOT a runeword item...
+			else
+			{
+				// print the line
+				$lines[] = 'ItemDisplay['
+					.$type.' '
+					.$item_code
+					.($params ? ' '.$params : '')
+					.']: '.static::get_tier_color($tier).'T'.$tier.' %NAME%%MAP%%TIER-'.$tier.'%';
+			}
 		}
 
 		// return
@@ -339,6 +375,7 @@ class App
 			$name = ex($payload, 'name');
 			$item_code = ex($payload, 'code');
 			$items = ex($payload, 'items', []);
+			$params = static::filter_params('NMAG', $item_code, null); // send blank, autoadd params from config
 
 			// load info about this item
 			$info = static::get_base_info($item_code);
@@ -384,7 +421,7 @@ class App
 				}
 				$lines[] = trim($line, ', ');
 				#$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') (SOCK='.$sockets.($is_larzukable ? ' OR (SOCK=0 ILVL>'.$ilvl_floor.' ILVL<'.($ilvl_ceil+1).')' : '').')]: %NAME% %DARK_GREEN%'.$label.'%WHITE%{'.$description.'}';
-				$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') (SOCK='.$sockets.($is_larzukable ? ' OR (SOCK=0 ILVL>'.$ilvl_floor.' ILVL<'.($ilvl_ceil+1).')' : '').')]: %NAME%%WHITE%{'.$description.'}';
+				$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') (SOCK='.$sockets.($is_larzukable ? ' OR (SOCK=0 ILVL>'.$ilvl_floor.' ILVL<'.($ilvl_ceil+1).')' : '').')'.($params ? ' '.$params : '').']: %NAME%%WHITE%{'.$description.'}';
 			}
 
 			// print
@@ -419,7 +456,7 @@ class App
 			if ($class)
 			{
 				$lines[] = '// - 0os';
-				$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') SOCK=0]: %NAME%%WHITE%{'.$description.'}';
+				$lines[] = 'ItemDisplay[NMAG !INF '.(ex(static::$config, 'is_ignore_superior') ? '!SUP ' : '').'!RW ('.$item_code.') SOCK=0'.($params ? ' '.$params : '').']: %NAME%%WHITE%{'.$description.'}';
 			}
 
 			$lines[] = '';

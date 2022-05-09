@@ -38,6 +38,10 @@ $ php run
 
 Open the file ``output.txt`` and copy the contents into the bottom of your ``BH.cfg`` loot filter config.
 
+## Issues
+
+- There is a choice about what to do w/ unsocketed base items.  One option is to mark them as the most optimistic tier possible, the other option is to mark them as the lowest tier possible.  You just don't know how good or bad the item will actually be.  I wrote it into the config as to which option you want to use.
+
 ## References
 
 - [Luigi's Reddit Post](https://www.reddit.com/user/luigi13579/comments/phxd1g/diablo_ii_base_guide/)
